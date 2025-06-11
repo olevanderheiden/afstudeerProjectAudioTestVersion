@@ -1,0 +1,58 @@
+.main {
+  width: 100%;
+  max-width: 100vw;
+  margin: 0 auto;
+  flex: 1;
+  padding-top: 90px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+}
+
+.layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  gap: 32px;
+  min-height: 60vh;
+  box-sizing: border-box;
+}
+
+.leftCol {
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 8px;
+  margin-left: 0;
+  position: sticky;
+  left: 0;
+}
+
+.tourStartenBtn {
+  margin-bottom: 24px;
+  padding: 8px 18px;
+  border-radius: 8px;
+  border: 1px solid #111;
+  background: #fff;
+  color: #111;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.tourStartenBtn:disabled {
+  background: #eee;
+  color: #aaa;
+  border: 1px solid #eee;
+  cursor: not-allowed;
+}
+
+.centerCol {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,53 @@
+.loadingBarContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 60vh;
+  min-height: 200px;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--secondary, #fff); /* matches site background */
+}
+
+.loadingBar {
+  width: 240px;
+  height: 8px;
+  background: #eee;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.loadingBarProgress {
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--accent, #262626) 0%,
+    #e67c1e 50%,
+    var(--primary, #111) 100%
+  );
+  animation: loadingBarAnim 1.2s infinite linear;
+  border-radius: 4px;
+}
+
+@keyframes loadingBarAnim {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(200%);
+  }
+}
+
+.loadingText {
+  font-size: 1.1rem;
+  color: var(--primary, #111);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}

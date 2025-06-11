@@ -1,0 +1,35 @@
+.section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 0 16px;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  margin-bottom: 24px;
+  color: var(--primary, #111);
+  text-align: center;
+}
+
+.sectionContent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  background: none !important;
+  min-height: unset !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 900px) {
+  .sectionContent {
+    gap: 16px;
+  }
+}

@@ -1,0 +1,21 @@
+# Node modules (React frontend)
+frontEndAudioTour/node_modules/
+frontEndAudioTour/.env
+
+# Vite build output
+dist
+
+
+# WordPress core files that shouldn't be versioned
+backEnd/wp-config.php
+backEnd/wp-content/uploads/
+backEnd/wp-content/cache/
+backEnd/wp-content/upgrade/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/

@@ -1,0 +1,2334 @@
+# Translation of Plugins - Custom Post Type UI - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Custom Post Type UI - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-04-08 20:49:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Custom Post Type UI - Stable (latest release)\n"
+
+#: inc/utility.php:1054
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: inc/utility.php:1042 inc/utility.php:1053
+msgid "OK"
+msgstr "OK"
+
+#: inc/about.php:105
+msgid "The move to require WordPress 6.3 allowed for adding \"item_trashed\" label support."
+msgstr "De overstap naar WordPress 6.3 maakte het mogelijk om ondersteuning voor \"item_trashed\" labels toe te voegen."
+
+#: inc/about.php:104
+msgid "Moved to minimum of WordPress 6.3."
+msgstr "Verplaatst naar minimaal WordPress 6.3."
+
+#: inc/about.php:103
+msgid "If you are trying to move post types into CPTUI, you can now mark as such to prevent slug conflicts notices."
+msgstr "Als je berichttypes probeert te verplaatsen naar CPTUI, kun je ze nu als zodanig markeren om slug conflicten te voorkomen berichten."
+
+#: inc/about.php:102
+msgid "Post type migration support"
+msgstr "Ondersteuning voor migratie van berichttypes"
+
+#: inc/post-types.php:1219
+msgid "\"False\" behaves like posts, \"True\" behaves like pages."
+msgstr "'False' gedraagt zich als berichten, 'True' gedraagt zich als pagina's."
+
+#. translators: Used for autofill
+#: inc/post-types.php:875
+msgid "%s trashed."
+msgstr "%s naar prullenbak verplaatst."
+
+#: inc/post-types.php:872
+msgid "(e.g. Movie trashed.)"
+msgstr "(bijv. film naar prullenbak verplaatst.)"
+
+#: inc/post-types.php:867
+msgid "Used when an item is moved to Trash. Default \"Post trashed.\" / \"Page trashed.\""
+msgstr "Wordt gebruikt wanneer een item naar de prullenbak wordt verplaatst. Standaard 'Bericht naar prullenbak verplaatst'. / \"Pagina naar prullenbak verplaatst.\""
+
+#: inc/post-types.php:866
+msgid "Item Trashed"
+msgstr "Item naar prullenbak verplaatst"
+
+#: inc/post-types.php:334
+msgid "I'm trying to migrate things in to CPTUI, let me save this"
+msgstr "Ik probeer dingen naar CPTUI te migreren, laat me dit opslaan"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:200
+msgid "You will need to add your newly created post type to the types that the category and tag archives query for. You can see a tutorial on how to do that at %s. You can also get this functionality via UI with a purchase of CPTUI-Extended"
+msgstr "Je moet je nieuw aangemaakte berichttype toevoegen aan de typen waar de categorie en tag archieven naar zoeken. Je kunt een tutorial over hoe je dat moet doen bekijken op %s. Je kunt deze functionaliteit ook krijgen via UI met een aankoop van CPTUI-Extended"
+
+#: inc/post-types.php:272 inc/taxonomies.php:277
+msgid "Slugs may only contain lowercase alphanumeric characters, dashes, and underscores."
+msgstr "Slugs mogen alleen kleine letters, alfanumerieke tekens, streepjes en underscores bevatten."
+
+#: custom-post-type-ui.php:1126
+msgid "Back to top"
+msgstr "Terug naar boven"
+
+#: custom-post-type-ui.php:847
+msgid "Secondary menu"
+msgstr "Secundair menu"
+
+#. translators: Placeholder will hold the name of the plugin, version of the
+#. plugin and a link to WebdevStudios.
+#: inc/utility.php:112
+msgid "%1$s version %2$s by %3$s"
+msgstr "%1$s versie %2$s door %3$s"
+
+#. translators: Link text for WordPress Developer site.
+#: inc/post-types.php:1518
+msgid "Theme support for post formats"
+msgstr "Thema ondersteuning voor bericht formaten"
+
+#. translators: Link text for WordPress Developer site.
+#: inc/post-types.php:1515
+msgid "Theme support for featured images"
+msgstr "Thema ondersteuning voor uitgelichte afbeeldingen"
+
+#: inc/post-types.php:1508
+msgid "Featured images and Post Formats need theme support added, to be used."
+msgstr "Uitgelichte afbeeldingen en bericht formaten moeten thema ondersteuning toegevoegd krijgen, om gebruikt te kunnen worden."
+
+#: inc/post-types.php:1498
+msgid "Provide a callback function that sets up the meta boxes for the edit form. Do `remove_meta_box()` and `add_meta_box()` calls in the callback. Default null."
+msgstr "Zorg voor een callback functie die de meta boxen voor het bewerken formulier instelt. Doe `remove_meta_box()` en `add_meta_box()` aanroepen in de callback. Standaard null."
+
+#: inc/post-types.php:1131 inc/taxonomies.php:1216
+msgid "(default: wp/v2) To change the namespace URL of REST API route."
+msgstr "(standaard: wp/v2) Om de namespace URL van de REST API route te veranderen."
+
+#: inc/post-types.php:1130 inc/taxonomies.php:1215
+msgid "REST API namespace"
+msgstr "REST API namespace"
+
+#: inc/taxonomies.php:1291
+msgid "Whether terms in this taxonomy should be sorted in the order they are provided to wp_set_object_terms()"
+msgstr "Of termen in deze taxonomie moeten worden gesorteerd in de volgorde waarin ze worden verstrekt aan wp_set_object_terms()"
+
+#: inc/taxonomies.php:1290
+msgid "Sort"
+msgstr "Sorteren"
+
+#: inc/taxonomies.php:939
+msgid "(default: false) Whether the taxonomy can have parent-child relationships. \"True\" gives checkboxes, \"False\" gives text input."
+msgstr "(standaard: onwaar) Of de taxonomie hoofd-sub relaties kan hebben. \"Waar\" geeft selectievakjes, \"Onwaar\" geeft tekstinvoer."
+
+#. translators: Used for autofill
+#: inc/taxonomies.php:842
+msgid "The description is not prominent by default; however, some themes may show it."
+msgstr "De beschrijving is standaard niet prominent aanwezig; sommige thema's kunnen deze echter wel tonen."
+
+#: inc/taxonomies.php:839
+msgid "Description for the Description field on Edit Tags screen."
+msgstr "Beschrijving voor het veld Beschrijving op het scherm Tags bewerken."
+
+#: inc/taxonomies.php:838
+msgid "Term Description Field Description"
+msgstr "Term beschrijving veldbeschrijving"
+
+#: inc/taxonomies.php:837
+msgid "(e.g. \"The description is not prominent by default; however, some themes may show it.\""
+msgstr "(bijv. \"De beschrijving is standaard niet prominent aanwezig, sommige thema's kunnen deze echter wel tonen.\""
+
+#. translators: Used for autofill
+#: inc/taxonomies.php:826
+msgid "The \"slug\" is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
+msgstr "De \"slug\" is de URL vriendelijke versie van de naam. Het is meestal allemaal kleine letters en bevat alleen letters, cijfers en koppeltekens."
+
+#: inc/taxonomies.php:823
+msgid "Description for the Slug field on Edit Tags screen. "
+msgstr "Beschrijving voor het veld Slug op het scherm Tags bewerken. "
+
+#: inc/taxonomies.php:822
+msgid "Term Slug Field Description"
+msgstr "Term slug veldbeschrijving"
+
+#: inc/taxonomies.php:821
+msgid "(e.g. \"The « slug » is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.\""
+msgstr "(b.v. \"De \" slug \" is de URL vriendelijke versie van de naam. Het is meestal allemaal kleine letters en bevat alleen letters, cijfers, en koppeltekens.\""
+
+#. translators: Used for autofill
+#: inc/taxonomies.php:810
+msgid "Assign a parent term to create a hierarchy. The term Jazz, for example, would be the parent of Bebop and Big Band."
+msgstr "Wijs een hoofdterm toe om een hiërarchie te creëren. De term Jazz, bijvoorbeeld, zou het hoofd zijn van Bebop en Big Band."
+
+#: inc/taxonomies.php:807
+msgid "Description for the Parent field on Edit Tags screen."
+msgstr "Beschrijving voor het hoofdveld op het scherm Tags bewerken."
+
+#: inc/taxonomies.php:806
+msgid "Term Parent Field Description"
+msgstr "Term hoofd veldbeschrijving"
+
+#: inc/taxonomies.php:805
+msgid "(e.g. \"Assign a parent term to create a hierarchy. The term Jazz, for example, would be the parent of Bebop and Big Band.\""
+msgstr "(b.v. \"Wijs een hoofd term toe om een hiërarchie te creëren. De term Jazz, bijvoorbeeld, zou het hoofd zijn van Bebop en Big Band.\""
+
+#. translators: Used for autofill
+#: inc/taxonomies.php:794
+msgid "The name is how it appears on your site."
+msgstr "De naam is zoals hij op je site staat."
+
+#: inc/taxonomies.php:791
+msgid "Description for the Name field on Edit Tags screen."
+msgstr "Beschrijving voor het veld Naam op het scherm Tags bewerken."
+
+#: inc/taxonomies.php:790
+msgid "Term Name Field Description"
+msgstr "Term naam veldbeschrijving"
+
+#: inc/taxonomies.php:789
+msgid "(e.g. \"The name is how it appears on your site.\""
+msgstr "(bijv. \"De naam is zoals hij op je site staat.\""
+
+#: inc/support.php:223
+msgid "If you have set \"exclude from search\" to True for the pot type, this would be why. If you need the post types in the archives, but still want to exclude them from search, it is recommended to use the \"pre_get_posts\" hook to unset the post type from considered types."
+msgstr "Als je \"uitsluiten van zoeken\" op Waar hebt gezet voor het bericht type, dan zou dit de reden zijn. Als je de bericht types nodig hebt in de archieven, maar ze toch wil uitsluiten van zoeken, is het aan te raden om de \"pre_get_posts\" hook te gebruiken om het bericht type uit te sluiten van overwogen types."
+
+#: inc/support.php:220
+msgid "Why are my post types not showing in taxonomy term archives?"
+msgstr "Waarom worden mijn bericht types niet getoond in de taxonomy term archieven?"
+
+#: inc/post-types.php:1271
+msgid "(default: false) Can this post_type be exported."
+msgstr "(standaard: onwaar) Kan dit bericht_type geëxporteerd worden."
+
+#: inc/post-types.php:1270
+msgid "Can Export"
+msgstr "Kan exporteren"
+
+#: inc/post-types.php:1202
+msgid "(default: false) Whether or not to exclude posts with this post type from front end search results. This also excludes from taxonomy term archives."
+msgstr "(standaard: onwaar) Of berichten van dit type al dan niet moeten worden uitgesloten van de zoekresultaten aan de voorkant. Dit sluit ook uit van taxonomie term archieven."
+
+#. translators: Used for autofill
+#: inc/post-types.php:923
+msgid "Add %s"
+msgstr "Voeg %s toe"
+
+#: inc/post-types.php:920
+msgid "(e.g. Add Movie)"
+msgstr "(b.v. Film toevoegen)"
+
+#: inc/post-types.php:916
+msgid "Placeholder text in the \"title\" input when creating a post. Not exportable."
+msgstr "Plaatshouder tekst in de \"titel\" invoer bij het maken van een bericht. Niet exporteerbaar."
+
+#: inc/post-types.php:915
+msgid "Add Title"
+msgstr "Titel toevoegen"
+
+#: inc/taxonomies.php:1241
+msgid "(default: inherited from \"show_ui\") Whether to list the taxonomy in the Tag Cloud Widget controls."
+msgstr "(standaard: overgenomen van \"show_ui\") Of de taxonomie moet worden vermeld in de Tag Cloud Widget besturingselementen."
+
+#: inc/taxonomies.php:1240
+msgid "Show in tag cloud."
+msgstr "Weergeven in tagcloud."
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:238
+msgid "We recommend checking out %s, the latest iteration of \"CMB2\". Both are supported by WebDevStudios."
+msgstr "We raden aan om %s te bekijken, de nieuwste versie van \"CMB2\". Beide worden ondersteund door WebDevStudios."
+
+#: inc/post-types.php:1476
+msgid "Choose dashicon"
+msgstr "Kies dashicon"
+
+#: inc/post-types.php:330 inc/taxonomies.php:335
+msgid "Clear labels"
+msgstr "Wis labels"
+
+#: inc/taxonomies.php:711
+msgid "Used when indicating that there are no terms in the given taxonomy within the meta box and taxonomy list table."
+msgstr "Gebruikt om aan te geven dat er geen termen zijn in de gegeven taxonomie in de metabox en de taxonomie lijsttabel."
+
+#: inc/post-types.php:1243
+msgid "(default: false) Whether or not the post type can have parent-child relationships. At least one published content item is needed in order to select a parent."
+msgstr "(standaard: false) Of het berichttype al dan niet ouder-kindrelaties kan hebben. Er is ten minste één gepubliceerde inhoudsitem nodig om een bovenliggend item te selecteren."
+
+#: external/wpgraphql.php:340
+msgid "Custom Post Type UI has native support for WPGraphQL. Please <a href=\"%s\">de-active</a> the \"WPGraphQL for Custom Post Type UI\" extension to proceed."
+msgstr "Custom Post Type UI heeft native ondersteuning voor WPGraphQL. Schakel <a href=\"%s\">de</a> extensie WPGraphQL for Custom Post Type UI uit om verder te gaan."
+
+#: external/wpgraphql.php:249
+msgid "Plural name for reference in the GraphQL API."
+msgstr "Meervoudsnaam ter referentie in de GraphQL API."
+
+#: external/wpgraphql.php:248
+msgid "GraphQL Plural Name"
+msgstr "GraphQL meervoudsnaam"
+
+#: external/wpgraphql.php:238
+msgid "Singular name for reference in the GraphQL API."
+msgstr "Enkelvoudige naam voor referentie in de GraphQL API."
+
+#: external/wpgraphql.php:237
+msgid "GraphQL Single Name"
+msgstr "GraphQL enkelvoudige naam"
+
+#: external/wpgraphql.php:226
+msgid "Whether or not to show data of this type in the WPGraphQL. Default: false"
+msgstr "Het al dan niet tonen van gegevens van dit type in de WPGraphQL. Standaard: false"
+
+#: external/wpgraphql.php:225
+msgid "Show in GraphQL"
+msgstr "Weergeven in GraphQL"
+
+#: external/wpgraphql.php:195
+msgid "Toggle panel: GraphQL Settings"
+msgstr "Toggle paneel: GraphQL instellingen"
+
+#: external/wpgraphql.php:191
+msgid "WPGraphQL"
+msgstr "WPGraphQL"
+
+#: external/wpgraphql.php:83
+msgid "The graphql_single_name is empty for the \"%s\" Post Type or Taxonomy registered by Custom Post Type UI."
+msgstr "De graphql_single_name is leeg voor het \"%s\" berichttype of de taxonomie geregistreerd door Customizer Post Type UI."
+
+#: external/wpgraphql.php:69
+msgid "The graphql_plural_name is empty for the \"%s\" Post Type or Taxonomy registered by Custom Post Type UI."
+msgstr "De graphql_plural_name is leeg voor het \"%s\" berichttype of taxonomie geregistreerd door Custom Post Type UI."
+
+#. translators: Used for autofill
+#: inc/taxonomies.php:778
+msgid "Back to %s"
+msgstr "Terug naar %s"
+
+#: inc/taxonomies.php:775
+msgid "The text displayed after a term has been updated for a link back to main index."
+msgstr "De tekst die wordt weergegeven nadat een term is geüpdatet voor een link terug naar de hoofdindex."
+
+#: inc/taxonomies.php:774
+msgid "Back to Items"
+msgstr "Terug naar items"
+
+#: inc/taxonomies.php:773
+msgid "(e.g. &larr; Back to actors"
+msgstr "(bijv. &larr; Terug naar acteurs"
+
+#: inc/taxonomies.php:695
+msgid "The text displayed via clicking ‘Choose from the most used items’ in the taxonomy meta box when no items are available."
+msgstr "De tekst die wordt weergegeven door te klikken op 'Kies uit de meest gebruikte items' in de taxonomie meta box wanneer er geen items beschikbaar zijn."
+
+#: inc/taxonomies.php:1312
+msgid "Set a default term for the taxonomy. Able to set a name, slug, and description. Only a name is required if setting a default, others are optional. Set values in the following order, separated by comma. Example: name, slug, description"
+msgstr "Stel een standaardterm in voor de taxonomie. In staat zijn om een ​​naam, slug en beschrijving in te stellen. Alleen een naam is vereist als je een standaard instelt, andere zijn optioneel. Stel waarden in de volgende volgorde in, gescheiden door komma's. Voorbeeld: naam, slug, beschrijving"
+
+#: inc/taxonomies.php:1311
+msgid "Default Term"
+msgstr "Standaard term"
+
+#: inc/utility.php:735
+msgid "Nonce failed verification"
+msgstr "Nonce verificatie mislukt"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:212
+msgid "Please visit the %1$sPost Type Templates in 4.7%2$s post on the Make WordPress Core blog for details about setting templates for multiple post types."
+msgstr "Bezoek de %1$sPost type templates in het bericht van 4.7%2$s op de Make WordPress Core blog voor meer informatie over het instellen van templates voor meerdere berichttypen."
+
+#: inc/support.php:207
+msgid "How do I add custom post type support for custom templates selection like pages have?"
+msgstr "Hoe kan ik ondersteuning voor custom post type toevoegen voor selectie van aangepaste templates, zoals pagina's?"
+
+#: inc/post-types.php:1717
+msgid "Taxonomy options"
+msgstr "Taxonomie opties"
+
+#: inc/post-types.php:1075
+msgid "(CPTUI default: false) Whether to delete posts of this type when deleting a user."
+msgstr "(CPTUI standaard: false) Of berichten van dit type moeten worden verwijderd wanneer een gebruiker wordt verwijderd."
+
+#: inc/post-types.php:1074
+msgid "Delete with user"
+msgstr "Verwijder met gebruiker"
+
+#. translators: Used for autofill
+#: inc/post-types.php:907
+msgid "%s updated."
+msgstr "%s geüpdatet."
+
+#: inc/post-types.php:904
+msgid "(e.g. Movie updated)"
+msgstr "(bijv. Film geüpdatet)"
+
+#: inc/post-types.php:900
+msgid "Used in the editor notice after updating a post. Default \"Post updated.\" / \"Page updated.\""
+msgstr "Wordt gebruikt in het editor bericht na het updaten van een bericht. Standaard \"Bericht geüpdatet.\"/ \"Pagina geüpdatet.\""
+
+#: inc/post-types.php:899
+msgid "Item Updated"
+msgstr "Item geüpdatet"
+
+#. translators: Used for autofill
+#: inc/post-types.php:891
+msgid "%s scheduled"
+msgstr "%s ingepland"
+
+#: inc/post-types.php:888
+msgid "(e.g. Movie scheduled)"
+msgstr "(bijv. Film ingepland)"
+
+#: inc/post-types.php:884
+msgid "Used in the editor notice after scheduling a post to be published at a later date. Default \"Post scheduled.\" / \"Page scheduled.\""
+msgstr "Wordt gebruikt in het bericht van de redacteur na de plannen van een bericht dat op een later tijdstip zal worden gepubliceerd. Standaard \"Bericht gepland.\"/ \"Pagina gepland.\""
+
+#: inc/post-types.php:883
+msgid "Item Scheduled"
+msgstr "Item ingepland"
+
+#. translators: Used for autofill
+#: inc/post-types.php:858
+msgid "%s reverted to draft."
+msgstr "%s omgezet naar concept."
+
+#: inc/post-types.php:855
+msgid "(e.g. Movie reverted to draft)"
+msgstr "(bijv. Film omgezet naar concept)"
+
+#: inc/post-types.php:851
+msgid "Used in the editor notice after reverting a post to draft. Default \"Post reverted to draft.\" / \"Page reverted to draft.\""
+msgstr "Wordt gebruikt in de redacteur na het terugzetten van een bericht naar concept. Standaard \"Bericht teruggezet naar concept.\"/ \"Pagina teruggezet naar concept.\""
+
+#: inc/post-types.php:850
+msgid "Item Reverted To Draft"
+msgstr "Item omgezet naar concept"
+
+#. translators: Used for autofill
+#: inc/post-types.php:842
+msgid "%s published privately."
+msgstr "%s privé gepubliceerd."
+
+#: inc/post-types.php:839
+msgid "(e.g. Movie published privately.)"
+msgstr "(bijv. Film privé gepubliceerd)"
+
+#: inc/post-types.php:835
+msgid "Used in the editor notice after publishing a private post. Default \"Post published privately.\" / \"Page published privately.\""
+msgstr "Gebruikt in het redacteur bericht na het publiceren van een privébericht. Standaard \"Bericht privé gepubliceerd.\"/ \"Pagina privé gepubliceerd.\""
+
+#: inc/post-types.php:834
+msgid "Item Published Privately"
+msgstr "Item privé gepubliceerd"
+
+#. translators: Used for autofill
+#: inc/post-types.php:826
+msgid "%s published"
+msgstr "%s gepubliceerd"
+
+#: inc/post-types.php:823
+msgid "(e.g. Movie published)"
+msgstr "(bijv. Film gepubliceerd)"
+
+#: inc/post-types.php:819
+msgid "Used in the editor notice after publishing a post. Default \"Post published.\" / \"Page published.\""
+msgstr "Gebruikt in het redacteur bericht na het publiceren van een bericht. Standaard \"Bericht gepubliceerd.\"/ \"Pagina gepubliceerd.\""
+
+#: inc/post-types.php:818
+msgid "Item Published"
+msgstr "Item gepubliceerd"
+
+#. translators: Used for autofill
+#: inc/post-types.php:794
+msgid "%s attributes"
+msgstr "%s attributen"
+
+#. translators: Used for autofill
+#: inc/post-types.php:746
+msgid "Filter %s list"
+msgstr "Filter %s lijst"
+
+#. translators: Used for autofill
+#: inc/post-types.php:730
+msgid "Upload to this %s"
+msgstr "Upload naar deze %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:714
+msgid "Insert into %s"
+msgstr "Invoegen in %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:698
+msgid "%s archives"
+msgstr "%s archieven"
+
+#. translators: Used for autofill
+#: inc/post-types.php:682
+msgid "Use as featured image for this %s"
+msgstr "Gebruiken als uitgelichte afbeelding voor deze %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:666
+msgid "Remove featured image for this %s"
+msgstr "Uitgelichte afbeelding voor deze %s verwijderen"
+
+#. translators: Used for autofill
+#: inc/post-types.php:650
+msgid "Set featured image for this %s"
+msgstr "Uitgelichte afbeelding instellen voor deze %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:634
+msgid "Featured image for this %s"
+msgstr "Uitgelichte afbeelding voor deze %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:601
+msgid "No %s found in trash"
+msgstr "Geen %s gevonden in prullenbak"
+
+#. translators: Used for autofill
+#: inc/post-types.php:473
+msgid "Add new"
+msgstr "Nieuwe toevoegen"
+
+#. translators: Used for autofill
+#: inc/post-types.php:441
+msgid "My %s"
+msgstr "Mijn %s"
+
+#. translators: %s: Post type slug
+#. translators: %s: Taxonomy slug
+#: inc/listings.php:159 inc/listings.php:373
+msgid "Edit %1$s (%2$s)"
+msgstr "Bewerk %1$s (%2$s)"
+
+#: inc/listings.php:65
+msgid "Content types registered with Custom Post Type UI."
+msgstr "Inhoudstypen die zijn geregistreerd met de gebruikersinterface voor Custom Post Type UI."
+
+#. translators: Used for autofill
+#: inc/post-types.php:778 inc/taxonomies.php:762
+msgid "%s list"
+msgstr "%s lijst"
+
+#. translators: Used for autofill
+#: inc/post-types.php:762 inc/taxonomies.php:746
+msgid "%s list navigation"
+msgstr "%s lijstnavigatie"
+
+#. translators: Used for autofill
+#: inc/taxonomies.php:730
+msgid "No %s"
+msgstr "Geen %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:585 inc/taxonomies.php:714
+msgid "No %s found"
+msgstr "Geen %s gevonden"
+
+#. translators: Used for autofill
+#: inc/taxonomies.php:554
+msgid "Update %s name"
+msgstr "Update %s naam"
+
+#: inc/post-types.php:1524 inc/taxonomies.php:344
+msgid "Post type options"
+msgstr "Berichttype opties"
+
+#: inc/post-types.php:326 inc/taxonomies.php:330
+msgid "Auto-populate labels"
+msgstr "Auto-invullen labels"
+
+#: inc/post-types.php:324 inc/taxonomies.php:328
+msgid "Populate missing labels based on chosen labels"
+msgstr "Vul ontbrekende labels in op basis van gekozen labels"
+
+#: inc/post-types.php:323 inc/taxonomies.php:327
+msgid "Populate additional labels based on chosen labels"
+msgstr "Vul extra labels in op basis van gekozen labels"
+
+#: inc/taxonomies.php:66 inc/utility.php:1041
+msgid "Please select a post type to associate with."
+msgstr "Selecteer een berichttype om aan te koppelen."
+
+#: inc/taxonomies.php:1302
+msgid "Sets a callback function name for the meta box display. Hierarchical default: post_categories_meta_box, non-hierarchical default: post_tags_meta_box. To remove the metabox completely, use \"false\"."
+msgstr "Stel een callback functie in voor de meta box weergave. Hiërarchische standaardwaarde: post_categories_meta_box, niet-hiërarchische standaardwaarde: post_tags_meta_box. Gebruik \"false\" om de meta box volledig te verwijderen."
+
+#: inc/taxonomies.php:1186
+msgid "(Custom Post Type UI default: true) Whether to show this taxonomy data in the WP REST API."
+msgstr "(Custom Post Type UI standaard: true) Bepaalt of deze taxonomy wordt weergegeven in de WP REST API."
+
+#: inc/wp-cli.php:121
+msgid "Successfully saved data to file."
+msgstr "Gegevens succesvol in bestand opgeslagen."
+
+#: inc/wp-cli.php:118
+msgid "Error saving data."
+msgstr "Fout bij het opslaan van de gegevens."
+
+#: inc/wp-cli.php:101
+msgid "Please provide a path to export your data to."
+msgstr "Geef het pad op waar de gegevens naar moeten worden geëxporteerd."
+
+#: inc/wp-cli.php:97
+msgid "Please provide whether you are exporting your post types or taxonomies"
+msgstr "Geef aan of je berichttypes of taxonomieën exporteert"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/wp-cli.php:74
+msgid "Imported %s successfully"
+msgstr "%s succesvol geïmporteerd"
+
+#: inc/wp-cli.php:69
+msgid "An error on import occurred"
+msgstr "Er is een fout opgetreden bij het importeren"
+
+#: inc/wp-cli.php:55
+msgid "No JSON data found"
+msgstr "Geen JSON gegevens gevonden"
+
+#: inc/wp-cli.php:47
+msgid "Please provide a path to the file holding your CPTUI JSON data."
+msgstr "Verstrek het pad naar het bestand dat je CPTUI JSON gegevens bevat."
+
+#: inc/wp-cli.php:43
+msgid "Please provide whether you are importing post types or taxonomies"
+msgstr "Geef aan of je berichttypes of taxonomieën importeert"
+
+#. translators: Placeholder will hold `<abbr>` tag for CPTUI.
+#: inc/utility.php:127
+msgid "Review %s"
+msgstr "Beoordeel %s"
+
+#: inc/tools-sections/tools-get-code.php:44
+msgid "All Custom Post Type UI Taxonomies"
+msgstr "Alle Custom Post Type UI taxonomieën"
+
+#: inc/tools-sections/tools-get-code.php:17
+msgid "All Custom Post Type UI Post Types"
+msgstr "Alle Custom Post Type UI berichttypes"
+
+#: inc/tools.php:439
+msgid "Export Taxonomies settings"
+msgstr "Exporteer instellingen taxonomieën"
+
+#: inc/tools.php:395
+msgid "Export Post Types settings"
+msgstr "Exporteer instellingen berichttypes"
+
+#: inc/post-types.php:1497 inc/taxonomies.php:1301
+msgid "Metabox callback"
+msgstr "Metabox callback"
+
+#: inc/taxonomies.php:1206
+msgid "(default: WP_REST_Terms_Controller) Custom controller to use instead of WP_REST_Terms_Controller."
+msgstr "(standaard: WP_REST_Terms_Controller) Aangepaste controller die gebruikt wordt in plaats van WP_REST_Terms_Controller."
+
+#: inc/taxonomies.php:914
+msgid "(default: value of \"public\" setting) Whether or not the taxonomy should be publicly queryable."
+msgstr "(standaard: waarde van de \"public\" instelling) Bepaalt of de taxonomie openbaar opvraagbaar moet zijn."
+
+#: inc/taxonomies.php:913
+msgid "Public Queryable"
+msgstr "Openbaar opvraagbaar"
+
+#: inc/taxonomies.php:889
+msgid "(default: true) Whether a taxonomy is intended for use publicly either via the admin interface or by front-end users."
+msgstr "(standaard: true) Bepaalt of een taxonomie voor openbaar gebruik is bedoeld via de admin-interface of door front-end gebruikers."
+
+#: inc/taxonomies.php:341
+msgid "Add support for available registered post types. At least one is required. Only public post types listed by default."
+msgstr "Voeg ondersteuning voor beschikbare geregistreerde berichttypes toe. Minimaal één is verplicht. Alleen openbare berichttypes worden standaard in de lijst getoond."
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:291
+msgid "We recommend %s for some extended customization and addition of extra fields regarding roles and capabilities."
+msgstr "Wij bevelen %s aan voor een aantal uitgebreide aanpassingsmogelijkheden en toevoeging van extra velden met betrekking tot rollen en rechten."
+
+#: inc/support.php:285
+msgid "Any help with customizing capabilities?"
+msgstr "Hulp nodig bij het aanpassen van rechten?"
+
+#: inc/post-types.php:1334
+msgid "(default: true) Should the permalink structure be prepended with the front base. (example: if your permalink structure is /blog/, then your links will be: false->/news/, true->/blog/news/)."
+msgstr "(standaard: 'true') Moet de permalink structuur worden voorafgegaan door de basis. (Bijvoorbeeld: Als je permalink-structuur /blog/ is, dan worden je links: 'false'->/news/, 'true'->/blog/news/)."
+
+#: inc/post-types.php:1213
+msgid "The post type to use for checking read, edit, and delete capabilities. A comma-separated second value can be used for plural version."
+msgstr "Het berichttype dat gebruikt moet worden voor lees-, bewerk-, en verwijderrechten. Een tweede waarde, gescheiden door een komma, kan worden gebruikt voor de meervoud versie."
+
+#: inc/post-types.php:1121
+msgid "(default: WP_REST_Posts_Controller) Custom controller to use instead of WP_REST_Posts_Controller."
+msgstr "(standaard: WP_REST_Posts_Controller) Aangepaste controller die gebruikt wordt in plaats van WP_REST_Posts_Controller."
+
+#: inc/post-types.php:1120 inc/taxonomies.php:1205
+msgid "REST API controller class"
+msgstr "REST API controller class"
+
+#: inc/post-types.php:1101
+msgid "(Custom Post Type UI default: true) Whether or not to show this post type data in the WP REST API."
+msgstr "(Custom Post Type UI standaard: true) Bepaalt of dit berichttype gegevens toont in de WP REST API."
+
+#: inc/post-types.php:803
+msgid "Used in New in Admin menu bar. Default \"singular name\" label."
+msgstr "Gebruikt als Nieuw in de adminbalk. Standaard label voor \"enkelvoudige naam\"."
+
+#: inc/post-types.php:802
+msgid "\"New\" menu in admin bar"
+msgstr "\"Nieuw\" menu in de toolbar"
+
+#: inc/post-types.php:255 inc/taxonomies.php:259
+msgid "Slug already exists"
+msgstr "Slug bestaat al"
+
+#. translators: %s: Total count of CPTUI registered taxonomies
+#: inc/listings.php:298
+msgid "Custom Post Type UI registered taxonomies count total: %d"
+msgstr "Totaal aantal geregistreerde Custom Post Type UI taxonomieën: %d"
+
+#. translators: %s: Total count of registered CPTUI post types
+#: inc/listings.php:77
+msgid "Custom Post Type UI registered post types count total: %d"
+msgstr "Totaal aantal geregistreerde Custom Post Type UI berichttypes: %d"
+
+#. translators: Placeholder will hold site home_url.
+#: classes/class.cptui_debug_info.php:236
+msgid "Custom Post Type UI debug information for %s"
+msgstr "Custom Post Type UI debug informatie voor %s"
+
+#: inc/support.php:76
+msgid "View our Layouts page"
+msgstr "Bekijk onze lay-outs pagina"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:72
+msgid "Please note that %1$s this plugin will not handle display %2$s of registered post types or taxonomies in your current theme. It simply registers them for you. To display your data, check out %3$s. %4$s to see some examples that are available with Custom Post Type UI Extended. If all else fails, visit us on the %5$s"
+msgstr "Houd er rekening mee dat %1$s deze plugin de weergave %2$s van toegepast berichttypes van taxonomieën in je huidige thema niet aankan. Het registreert ze gewoon voor jou. Bekijk %3$s om je gegevens weer te geven. %4$s om enkele voorbeelden te zien die beschikbaar zijn met extra berichttype UI uitgebreid. Als al het andere niet lukt, bezoek ons ​​dan op de %5$s"
+
+#: inc/tools-sections/tools-get-code.php:19
+msgid "All of the selectable code snippets below are useful if you wish to migrate away from Custom Post Type UI and retain your existing registered post types or taxonomies."
+msgstr "Alle onderstaande te selecteren code snippets zijn handig als je wilt migreren van de gebruikersinterface van Custom Post Type UI en je bestaande berichttypen van taxonomieën willen behouden."
+
+#: inc/utility.php:723
+msgid "Invalid data provided"
+msgstr "Ongeldige gegevens opgegeven"
+
+#: inc/utility.php:712
+msgid "Successfully imported data."
+msgstr "Gegevens met succes geïmporteerd."
+
+#: inc/post-types.php:1504
+msgid "Add support for various available post editor features on the right. A checked value means the post type feature is supported."
+msgstr "Voeg ondersteuning toe voor diverse beschikbare editor functies. Een aangevinkte waarde betekent dat de functie wordt ondersteund."
+
+#: inc/post-types.php:791
+msgid "(e.g. Movies Attributes)"
+msgstr "(bijv. Film attributen)"
+
+#: inc/post-types.php:787
+msgid "Used for the title of the post attributes meta box."
+msgstr "Wordt gebruikt voor de titel van de  bericht attributen meta box."
+
+#: inc/post-types.php:786
+msgid "Attributes"
+msgstr "Attributen"
+
+#: inc/post-types.php:550
+msgid "(e.g. View Movies)"
+msgstr "(bijv. Bekijk films)"
+
+#: inc/post-types.php:545
+msgid "View Items"
+msgstr "Bekijk items"
+
+#: inc/listings.php:201
+msgid "No associated taxonomies"
+msgstr "Geen geassocieerde taxonomieën"
+
+#: custom-post-type-ui.php:150
+msgid "Tools"
+msgstr "Gereedschap"
+
+#: custom-post-type-ui.php:150
+msgid "Custom Post Type UI Tools"
+msgstr "Custom Post Type UI gereedschap"
+
+#: inc/utility.php:609
+msgid "Object"
+msgstr "Object"
+
+#: inc/utility.php:364
+msgid "Remove these ads?"
+msgstr "Deze advertenties verwijderen?"
+
+#: inc/taxonomies.php:1266
+msgid "(default: false) Whether to show the taxonomy in the quick/bulk edit panel."
+msgstr "(standaard: false) Bepaalt of de taxonomie in het snel/bulk bewerkingspaneel wordt getoond."
+
+#: inc/taxonomies.php:1136
+msgid "(default: false) Should the permastruct allow hierarchical urls."
+msgstr "(standaard: false) Moet het permastruct hiërarchische URL's toestaan."
+
+#: inc/taxonomies.php:1075
+msgid "(default: true) Whether or not WordPress should use rewrites for this taxonomy."
+msgstr "(standaard: true) Bepaalt of WordPress wel of geen rewrites moet gebruiken voor deze taxonomie."
+
+#: inc/taxonomies.php:1039
+msgid "(default: true) Sets the query_var key for this taxonomy."
+msgstr "(standaard: true) Stelt de query_var parameter voor deze taxonomie in."
+
+#: inc/taxonomies.php:1014
+msgid "(default: value of public) Whether to make the taxonomy available for selection in navigation menus."
+msgstr "(standaard: waarde van openbaar) Bepaalt of deze taxonomie beschikbaar moet zijn in navigatiemenu's."
+
+#: inc/taxonomies.php:1013
+msgid "Show in nav menus"
+msgstr "Toon in navigatie menu's"
+
+#: inc/taxonomies.php:989
+msgid "(default: value of show_ui) Whether to show the taxonomy in the admin menu."
+msgstr "(standaard: waarde van show_ui) Of the taxonomie in het beheer menu getoond moet worden of niet."
+
+#: inc/taxonomies.php:988
+msgid "Show in menu"
+msgstr "Toon in menu"
+
+#: inc/taxonomies.php:964
+msgid "(default: true) Whether to generate a default UI for managing this custom taxonomy."
+msgstr "(standaard: true) Of er een standaard UI gegenereerd moet worden voor het beheren van deze taxonomie."
+
+#: inc/taxonomies.php:125
+msgid "Import/Export Taxonomies"
+msgstr "Importeer/Exporteer Taxonomiën"
+
+#: inc/post-types.php:1713
+msgid "Add support for available registered taxonomies."
+msgstr "Voeg ondersteuning toe voor beschikbare geregistreerde taxonomieën."
+
+#: inc/post-types.php:1697
+msgid "Use this input to register custom \"supports\" values, separated by commas. Learn about this at %s"
+msgstr "Gebruik dit veld om nieuwe aangepaste \"ondersteunt\" waarden te registeren, gescheiden door komma's. Lees hier meer over in %s"
+
+#: inc/post-types.php:1442
+msgid "The top-level admin menu page file name for which the post type should be in the sub menu of."
+msgstr "De naam van het hoofd beheer menu pagina bestandsnaam waar dit berichttype in een submenu behoort."
+
+#: inc/post-types.php:1429
+msgid "(default: true) Whether or not to show the post type in the admin menu and where to show that menu."
+msgstr "(standaard: true) Of het berichttype wel of niet in het beheerder menu getoond moet worden, en waar het menu getoond moet worden."
+
+#: inc/post-types.php:1387
+msgid "Available options"
+msgstr "Beschikbare opties"
+
+#: inc/post-types.php:1381
+msgid "See %s in the \"menu_position\" section. Range of 5-100"
+msgstr "Zie %s in de \"menu_position\" sectie. Bereik van 5-100"
+
+#: inc/post-types.php:1360
+msgid "(default: true) Sets the query_var key for this post type."
+msgstr "(standaard: true) Stelt de query_var sleutel voor dit berichttype in."
+
+#: inc/taxonomies.php:1111
+msgid "(default: true) Should the permastruct be prepended with the front base."
+msgstr "(standaard: true) Of de permastruct moet worden voorafgegaan door de basis."
+
+#: inc/post-types.php:1297
+msgid "(default: true) Whether or not WordPress should use rewrites for this post type."
+msgstr "(standaard: true) Bepaalt of WordPress rewrites moet gebruiken voor dit berichttype."
+
+#: inc/post-types.php:1161
+msgid "(default: false) Whether or not the post type will have a post type archive URL."
+msgstr "(standaard: false) Of dit berichttype een archief URL zal hebben."
+
+#: inc/post-types.php:1049
+msgid "(Custom Post Type UI default: true) Whether or not this post type is available for selection in navigation menus."
+msgstr "(Custom Post Type UI standaard: true) Bepaalt of dit berichttype beschikbaar is in navigatiemenu's."
+
+#: inc/post-types.php:1023
+msgid "(default: true) Whether or not to generate a default UI for managing this post type."
+msgstr "(standaard: true) Bepaalt of een standaard UI voor het beheren van dit berichttype aangemaakt moet worden."
+
+#: inc/post-types.php:997
+msgid "(default: true) Whether or not queries can be performed on the front end as part of parse_request()"
+msgstr "(standaard: true) Bepaalt of queries kunnen worden uitgevoerd aan het front-end als onderdeel van parse_request()"
+
+#: inc/post-types.php:996
+msgid "Publicly Queryable"
+msgstr "Openbaar opvraagbaar"
+
+#: inc/post-types.php:971
+msgid "(Custom Post Type UI default: true) Whether or not posts of this type should be shown in the admin UI and is publicly queryable."
+msgstr "(Custom Post Type UI standaard: true) Of berichten van dit type getoond moeten worden in de beheerder UI en openbaar opvraagbaar moeten zijn."
+
+#: inc/taxonomies.php:859
+msgid "Toggle panel: Settings"
+msgstr "Toggle paneel: instellingen"
+
+#: inc/post-types.php:611
+msgid "Used for hierarchical types that need a colon."
+msgstr "Gebruikt voor hiërarchische typen die een dubbele punt nodig hebben."
+
+#: inc/taxonomies.php:456
+msgid "Toggle panel: Additional labels"
+msgstr "Toggle paneel: extra labels"
+
+#: inc/post-types.php:253 inc/taxonomies.php:257
+msgid "Slug has changed"
+msgstr "De slug is gewijzigd"
+
+#: inc/post-types.php:239 inc/post-types.php:405 inc/post-types.php:941
+#: inc/taxonomies.php:244
+msgid "Toggle panel: Basic settings"
+msgstr "Toggle paneel: basis instellingen"
+
+#: inc/post-types.php:122
+msgid "Import/Export Post Types"
+msgstr "Importeer/exporteer bericht types"
+
+#: inc/listings.php:244
+msgid "*Replace \"post_slug\" with the slug of the actual post."
+msgstr "*Vervang \"post_slug\" door de slug van de huidige bericht."
+
+#: inc/listings.php:164 inc/listings.php:378
+msgid "Get code"
+msgstr "Verkrijg code"
+
+#. translators: Placeholder will hold the name of the author of the plugin.
+#: inc/about.php:132
+msgid "More from %s"
+msgstr "Meer van %s"
+
+#: inc/about.php:77
+msgid "Thank you for choosing Custom Post Type UI! We hope that your experience with our plugin makes creating post types and taxonomies and organizing your content quick and easy."
+msgstr "Bedankt voor het kiezen van Custom Post Type UI! We hopen dat je ervaring met onze plugin het maken van berichttypes en taxonomieën en het organiseren van je inhoud snel en gemakkelijk maakt."
+
+#: inc/utility.php:417
+msgid "Subscribe"
+msgstr "Abonneer"
+
+#: inc/utility.php:400
+msgid "Email address"
+msgstr "E-mailadres"
+
+#: inc/utility.php:387
+msgid "Get email updates from pluginize.com about Custom Post Type UI"
+msgstr "Ontvang e-mail updates van pluginize.com over Custom Post Type UI"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:183
+msgid "We encourage checking out %1$s for easily displaying post type content wherever you can utilize a shortcode. If you prefer to handle on your own, you will need to utilize the %2$s class to handle display in custom locations. If you have set the post type to have archives, the archive url should be something like \"http://www.mysite.com/post-type-slug\""
+msgstr "We raden aan om %1$s te bekijken voor het eenvoudig weergeven van inhoud van het berichttype, waar je ook een shortcode kunt gebruiken. Als je het liever alleen doet, moet je de klasse %2$s gebruiken om de weergave op aangepaste locaties af te handelen. Als je het berichttype hebt ingesteld om archieven te hebben, zou de archief-url ongeveer zo moeten zijn als \"http://www.mysite.com/post-type-slug\""
+
+#: inc/support.php:130
+msgid "No it does not. The Shortcode builder is not multisite dependent and will work with either setup."
+msgstr "Nee, dat doet het niet. De Shortcode Builder is niet multisite afhankelijk en werkt met beide instellingen."
+
+#: inc/support.php:129
+msgid "Does Custom Post Type UI Extended require multisite?"
+msgstr "Vereist Custom Post Type UI Extended multisite?"
+
+#: inc/support.php:125
+msgid "Yes you will. The Custom Post Type UI Extended is not a replacement of the free version with added extra features. It acts based on the data made available through Custom Post Type UI"
+msgstr "Ja, dat zal je. De Custom Post Type UI Extended is geen vervanging van de gratis versie met extra functies. Het werkt op basis van de gegevens die beschikbaar zijn gemaakt via Custom Post Type UI"
+
+#: inc/support.php:124
+msgid "Do I still need Custom Post Type UI if I purchase and install Custom Post Type UI Extended?"
+msgstr "Heb ik nog steeds Custom Post Type UI nodig als ik Custom Post Type UI Extended koop en installeer?"
+
+#: inc/support.php:120
+msgid "No, there is no data being sent out from your site with these. The only way anything is tracked is via UTM parameters for WebDevStudios's analytics so we can get an idea of where traffic is coming from. Those are only tracked if you actually click on an ad spot."
+msgstr "Nee, er worden hiermee geen gegevens verzonden vanaf je site. De enige manier waarop iets wordt bijgehouden is via UTM parameters voor WebDevStudios' analyse, zodat we een idee krijgen waar het verkeer vandaan komt. Die worden alleen bijgehouden als je daadwerkelijk op een advertentie klikt."
+
+#: inc/support.php:119
+msgid "Are these ad spots tracking my personal information in any way?"
+msgstr "Mijn persoonlijke gegevens op enigerlei wijze volgen?"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:108
+msgid "You can have them automatically removed from display via a purchased copy of %s."
+msgstr "Je kunt ze automatisch van het scherm laten verwijderen via een gekocht exemplaar van %s."
+
+#: inc/support.php:103
+msgid "How can I remove the ads that suddenly started showing up?"
+msgstr "Hoe kan ik de advertenties verwijderen die plotseling opdoken?"
+
+#: inc/support.php:99
+msgid "No. These spots are intended for and will only be used for other available WebDevStudios products and services."
+msgstr "Nee. Deze spots zijn bedoeld voor en zullen alleen worden gebruikt voor andere beschikbare WebDevStudios producten en diensten."
+
+#: inc/support.php:98
+msgid "Will these ad spots ever show third-party data?"
+msgstr "Zullen deze advertentieplekken ooit externe gegevens van derden tonen?"
+
+#: inc/support.php:94
+msgid "Pluginize offers both free and paid WordPress plugins."
+msgstr "Pluginize biedt zowel gratis als betaalde WordPress plugins aan."
+
+#: inc/support.php:93
+msgid "What does Pluginize offer?"
+msgstr "Wat biedt Pluginize?"
+
+#: inc/support.php:89
+msgid "Pluginize is a marketplace of plugins by WebDevStudios."
+msgstr "Pluginize is een marktplaats voor plugins door WebDevStudios."
+
+#: inc/support.php:88
+msgid "What is Pluginize?"
+msgstr "Wat is Pluginize?"
+
+#: inc/support.php:85
+msgid "Pluginize"
+msgstr "Pluginize"
+
+#: inc/support.php:75
+msgid "CPTUI Extended"
+msgstr "CPTUI Extended"
+
+#: inc/utility.php:120
+msgid "Support forums"
+msgstr "Support forums"
+
+#: inc/utility.php:39
+msgid "About"
+msgstr "Over"
+
+#: inc/utility.php:778
+msgid "Please provide a post type to attach to."
+msgstr "Geef een berichttype op om aan toe te voegen."
+
+#: inc/taxonomies.php:1265
+msgid "Show in quick/bulk edit panel."
+msgstr "Weergeven in snel/bulk bewerkingsvenster."
+
+#: inc/taxonomies.php:759
+msgid "Screen reader text for the items list heading on the term listing screen."
+msgstr "Tekst voor schermlezers voor de kopteksten van de items lijst op het scherm van de term vermelding."
+
+#: inc/taxonomies.php:757
+msgid "(e.g. Actors list)"
+msgstr "(bv. Acteurs lijst)"
+
+#: inc/taxonomies.php:743
+msgid "Screen reader text for the pagination heading on the term listing screen."
+msgstr "Tekst voor schermlezers voor de paginering koptekst op het scherm van de vermelding van termen."
+
+#: inc/taxonomies.php:741
+msgid "(e.g. Actors list navigation)"
+msgstr "(bijv. acteurslijst navigatie)"
+
+#: inc/taxonomies.php:727
+msgid "Used when indicating that there are no terms in the given taxonomy associated with an object."
+msgstr "Wordt gebruikt om aan te geven dat er geen termen zijn in de gegeven taxonomie die aan een object zijn gekoppeld."
+
+#: inc/taxonomies.php:726
+msgid "No terms"
+msgstr "Geen termen"
+
+#: inc/taxonomies.php:725
+msgid "(e.g. No actors)"
+msgstr "(bijv. Geen acteurs)"
+
+#: inc/taxonomies.php:567
+msgid "Used at the top of the term editor screen and button text for a new taxonomy term."
+msgstr "Wordt bovenaan het bewerkingsscherm van de term en knoptekst gebruikt voor een nieuwe taxonomieterm."
+
+#: inc/taxonomies.php:535
+msgid "Used in the admin bar when viewing editor screen for an existing taxonomy term."
+msgstr "Gebruikt in de toolbar bij het bekijken van de editor scherm voor een bestaande taxonomie term."
+
+#: inc/taxonomies.php:519
+msgid "Used at the top of the term editor screen for an existing taxonomy term."
+msgstr "Wordt bovenaan het begrip editorscherm gebruikt voor een bestaande taxonomieterm."
+
+#: inc/taxonomies.php:503
+msgid "Used as tab text when showing all terms for hierarchical taxonomy while editing post."
+msgstr "Gebruikt als tab-tekst bij het weergeven van alle termen voor hiërarchische taxonomie tijdens het bewerken van berichten."
+
+#: inc/taxonomies.php:488
+msgid "Custom admin menu name for your taxonomy."
+msgstr "Aangepaste beheer menu naam voor je taxonomie."
+
+#: inc/taxonomies.php:477
+msgid "Describe what your taxonomy is used for."
+msgstr "Beschrijf waarvoor je taxonomie wordt gebruikt."
+
+#: inc/taxonomies.php:308
+msgid "Used for the taxonomy admin menu item."
+msgstr "Gebruikt voor het taxonomie beheer menu-item."
+
+#: inc/taxonomies.php:292
+msgid "Migrate terms to newly renamed taxonomy?"
+msgstr "Termen migreren naar recent hernoemde taxonomie?"
+
+#: inc/taxonomies.php:282
+msgid "DO NOT EDIT the taxonomy slug unless also planning to migrate terms. Changing the slug registers a new taxonomy entry."
+msgstr "BEWERK de taxonomieslug NIET, tenzij je ook van plan bent voorwaarden te migreren. Het veranderen van de slug registreert een nieuwe taxonomie."
+
+#: inc/taxonomies.php:269
+msgid "The taxonomy name/slug. Used for various queries for taxonomy content."
+msgstr "De taxonomie naam/slug. Gebruikt voor verschillende vragen over taxonomie inhoud."
+
+#: inc/taxonomies.php:118
+msgid "View Taxonomies"
+msgstr "Bekijk taxonomieën"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/utility.php:804
+msgid "Please choose a different post type name. %s matches an existing page slug, which can cause conflicts."
+msgstr "Kies een andere naam voor het berichttype. %s komt overeen met een bestaande paginaslug, wat tot conflicten kan leiden."
+
+#: inc/post-types.php:1747 inc/taxonomies.php:381
+msgid "(WP Core)"
+msgstr "(WP Core)"
+
+#: inc/post-types.php:1485
+msgid "Choose image icon"
+msgstr "Kies afbeeldingspictogram"
+
+#: inc/post-types.php:1462
+msgid "Image URL or %sDashicon class name%s to use for icon. Custom image should be 20px by 20px."
+msgstr "Afbeeldings URL van %sDashpictogram klasse naam %s om te gebruiken voor het pictogram. De aangepaste afbeelding moet 20 bij 20 pixels zijn."
+
+#: inc/post-types.php:775
+msgid "(e.g. Movies list)"
+msgstr "(bijv. Films lijst)"
+
+#: inc/post-types.php:771
+msgid "Screen reader text for the items list heading on the post type listing screen."
+msgstr "Tekst voor schermlezers voor de kopteksten van de items lijst in het berichttype vermelding scherm."
+
+#: inc/post-types.php:770 inc/taxonomies.php:758
+msgid "Items List"
+msgstr "Items lijst"
+
+#: inc/post-types.php:759
+msgid "(e.g. Movies list navigation)"
+msgstr "(bijv. Films lijst navigatie)"
+
+#: inc/post-types.php:755
+msgid "Screen reader text for the pagination heading on the post type listing screen."
+msgstr "Tekst voor schermlezers voor de pagina koptekst op het scherm van de vermelding van het berichttype."
+
+#: inc/post-types.php:754 inc/taxonomies.php:742
+msgid "Items List Navigation"
+msgstr "Artikellijst navigatie"
+
+#: inc/post-types.php:743
+msgid "(e.g. Filter movies list)"
+msgstr "(bijv. filmlijst filteren)"
+
+#: inc/post-types.php:739
+msgid "Screen reader text for the filter links heading on the post type listing screen."
+msgstr "Tekst voor schermlezers voor de koptekst van de filter links op het scherm van de vermelding van het berichttype."
+
+#: inc/post-types.php:738
+msgid "Filter Items List"
+msgstr "Artikellijst filteren"
+
+#: inc/post-types.php:727
+msgid "(e.g. Uploaded to this movie)"
+msgstr "(bijv. aanbevolen naar deze film)"
+
+#: inc/post-types.php:723
+msgid "Used as the \"Uploaded to this post\" or \"Uploaded to this page\" phrase for the post type."
+msgstr "Gebruikt als de \"Uploaded to this bericht\" of \"Uploaded to this page\" zin voor het berichttype."
+
+#: inc/post-types.php:722
+msgid "Uploaded to this Item"
+msgstr "Geüpload naar dit artikel"
+
+#: inc/post-types.php:711
+msgid "(e.g. Insert into movie)"
+msgstr "(bijv. invoegen in film)"
+
+#: inc/post-types.php:707
+msgid "Used as the \"Insert into post\" or \"Insert into page\" phrase for the post type."
+msgstr "Gebruikt als de \"Invoegen in bericht\" of \"Invoegen in pagina\" zin voor het berichttype."
+
+#: inc/post-types.php:706
+msgid "Insert into item"
+msgstr "Invoegen in artikel"
+
+#: inc/post-types.php:695
+msgid "(e.g. Movie archives)"
+msgstr "(bijv. filmarchieven)"
+
+#: inc/post-types.php:691
+msgid "Post type archive label used in nav menus."
+msgstr "Archieflabel voor berichttype dat wordt gebruikt in navigatiemenu's."
+
+#: inc/post-types.php:679
+msgid "(e.g. Use as featured image for this movie)"
+msgstr "(bijv. gebruik als uitgelichte afbeelding voor deze film)"
+
+#: inc/post-types.php:675
+msgid "Used as the \"Use as featured image\" phrase for the post type."
+msgstr "Gebruikt als de \"Gebruik als uitgelichte afbeelding\" zin voor het berichttype."
+
+#: inc/post-types.php:674
+msgid "Use Featured Image"
+msgstr "Uitgelichte afbeelding gebruiken"
+
+#: inc/post-types.php:663
+msgid "(e.g. Remove featured image for this movie)"
+msgstr "(bijv. uitgelichte afbeelding voor deze film verwijderen)"
+
+#: inc/post-types.php:659
+msgid "Used as the \"Remove featured image\" phrase for the post type."
+msgstr "Gebruikt als de zin \"Uitgelichte afbeelding verwijderen\" voor het berichttype."
+
+#: inc/post-types.php:658
+msgid "Remove Featured Image"
+msgstr "Verwijder uitgelichte afbeelding"
+
+#: inc/post-types.php:647
+msgid "(e.g. Set featured image for this movie)"
+msgstr "(Stel de aanbevolen afbeelding voor deze film in)"
+
+#: inc/post-types.php:643
+msgid "Used as the \"Set featured image\" phrase for the post type."
+msgstr "Gebruikt als de \"Instellen uitgelichte afbeelding\" zin voor het berichttype."
+
+#: inc/post-types.php:642
+msgid "Set Featured Image"
+msgstr "Uitgelichte afbeelding instellen"
+
+#: inc/post-types.php:631
+msgid "(e.g. Featured image for this movie)"
+msgstr "(bijv. uitgelichte afbeelding voor deze film)"
+
+#: inc/post-types.php:627
+msgid "Used as the \"Featured Image\" phrase for the post type."
+msgstr "Gebruikt als de \"Uitgelichte afbeelding\" zin voor het berichttype."
+
+#: inc/post-types.php:594
+msgid "Used when there are no posts to display on the post type list trash screen."
+msgstr "Gebruikt wanneer er geen berichten zijn om weer te geven in het prullenbakscherm van de berichttypen."
+
+#: inc/post-types.php:578
+msgid "Used when there are no posts to display on the post type list screen."
+msgstr "Wordt gebruikt wanneer er geen berichten zijn om weer te geven op het lijsttype berichttype."
+
+#: inc/post-types.php:562
+msgid "Used as the text for the search button on post type list screen."
+msgstr "Wordt gebruikt als tekst voor de zoekknop op het lijstscherm met berichttypen."
+
+#: inc/post-types.php:530 inc/post-types.php:546
+msgid "Used in the admin bar when viewing editor screen for a published post in the post type."
+msgstr "Gebruikt in de toolbar bij het bekijken van de editor scherm voor een gepubliceerde bericht in het berichttype."
+
+#: inc/post-types.php:498
+msgid "Used at the top of the post editor screen for an existing post type post."
+msgstr "Wordt bovenaan het berichteditorscherm gebruikt voor een bestaand berichttype bericht."
+
+#: inc/post-types.php:482
+msgid "Used at the top of the post editor screen for a new post type post."
+msgstr "Wordt bovenaan het berichteditorscherm gebruikt voor een nieuw berichttype."
+
+#: inc/post-types.php:450 inc/post-types.php:466
+msgid "Used in the post type admin submenu."
+msgstr "Gebruikt in het berichttype beheer-submenu."
+
+#: inc/post-types.php:427
+msgid "Perhaps describe what your custom post type is used for?"
+msgstr "Beschrijf misschien waarvoor je extra berichttype wordt gebruikt?"
+
+#: inc/post-types.php:426
+msgid "Post Type Description"
+msgstr "Berichttype beschrijving"
+
+#: inc/post-types.php:401 inc/taxonomies.php:452
+msgid "Additional labels"
+msgstr "Extra labels"
+
+#: inc/post-types.php:317 inc/taxonomies.php:320
+msgid "Used when a singular label is needed."
+msgstr "Gebruikt wanneer een enkelvoudig label nodig is."
+
+#: inc/post-types.php:305
+msgid "Used for the post type admin menu item."
+msgstr "Wordt gebruikt voor het admin-item van het berichttype."
+
+#: inc/post-types.php:277
+msgid "DO NOT EDIT the post type slug unless also planning to migrate posts. Changing the slug registers a new post type entry."
+msgstr "BEWERK de slug van het berichttype NIET, tenzij je ook van plan bent berichten te migreren. Het wijzigen van de slug registreert een nieuw berichttype."
+
+#: inc/post-types.php:265
+msgid "The post type name/slug. Used for various queries for post type content."
+msgstr "De naam van het berichttype/slug. Gebruikt voor verschillende vragen over inhoud van het berichttype."
+
+#: inc/post-types.php:235 inc/taxonomies.php:240
+msgid "Basic settings"
+msgstr "Basisinstellingen"
+
+#: inc/post-types.php:115
+msgid "View Post Types"
+msgstr "Bekijk berichttypen"
+
+#: inc/post-types.php:62 inc/taxonomies.php:65 inc/utility.php:1051
+msgid "Are you sure you want to delete this? Deleting will NOT remove created content."
+msgstr "Weet je zeker dat je dit wilt verwijderen? Als je verwijderd, wordt de gemaakte inhoud NIET verwijderd."
+
+#: inc/taxonomies.php:1049
+msgid "(default: taxonomy slug). Query var needs to be true to use."
+msgstr "(standaard: taxonomieslug). Query var moet waar zijn om te gebruiken."
+
+#: inc/support.php:140
+msgid "Visit the Import/Export page and copy the export code into the import side on the left. Replace the space with an underscore and then click \"Import\". You should be able to delete the individual post types afterwards."
+msgstr "Bezoek de Import/Export pagina en kopieer de exportcode naar de importzijde aan de linkerkant. Vervang de spatie door een onderstrepingsteken en klik vervolgens op \"Importeren\". Je zou de afzonderlijke berichttypen achteraf moeten kunnen verwijderen."
+
+#: inc/support.php:139
+msgid "I have post types with spaces in their slug and can not successfully delete them. How can I fix that?"
+msgstr "Ik heb berichttypen met spaties in hun slug en kan ze niet met succes verwijderen. Hoe kan ik dat oplossen?"
+
+#: inc/post-types.php:1372
+msgid "Custom query var slug to use instead of the default."
+msgstr "Aangepaste zoekopdracht var slug om te gebruiken in plaats van de standaard."
+
+#: inc/post-types.php:1371
+msgid "(default: post type slug) Query var needs to be true to use."
+msgstr "(standaard: bericht type slug) Query var moet waar zijn om te gebruiken."
+
+#: inc/post-types.php:1370
+msgid "Custom Query Var Slug"
+msgstr "Custom Query Var Slug"
+
+#: inc/post-types.php:1111 inc/taxonomies.php:1196
+msgid "Slug to use in REST API URLs."
+msgstr "Slug voor gebruik in REST API URL's."
+
+#: inc/post-types.php:1110 inc/taxonomies.php:1195
+msgid "REST API base slug"
+msgstr "REST API-basisslug"
+
+#: inc/post-types.php:1100 inc/taxonomies.php:1185
+msgid "Show in REST API"
+msgstr "Toon in REST API"
+
+#: inc/post-types.php:1048
+msgid "Show in Nav Menus"
+msgstr "Toon in navigatiemenu's"
+
+#. translators: %s: Link to manage taxonomies section
+#: inc/listings.php:518
+msgid "No taxonomies registered for display. Visit %s to get started."
+msgstr "Geen taxonomieën geregistreerd voor weergave. Bezoek %s om te beginnen."
+
+#: inc/listings.php:433
+msgid "*Replace \"term_slug\" with the slug of the actual taxonomy term."
+msgstr "* Vervang \"term_slug\" door de slug van de huidige taxonomie term."
+
+#: inc/post-types.php:690
+msgid "Archives"
+msgstr "Archieven"
+
+#. translators: 1st %s: Link to manage post types section 2nd %s Link text
+#: inc/listings.php:496
+msgid "No post types registered for display. Visit %s to get started."
+msgstr "Geen berichttypes geregistreerd voor weergave. Bezoek %s om te beginnen."
+
+#: inc/listings.php:251 inc/listings.php:439
+msgid "Template hierarchy Theme Handbook"
+msgstr "Thema handboek voor template hiërarchie"
+
+#: inc/listings.php:235
+msgid "Single Posts file name examples."
+msgstr "Voorbeelden van bestandsnamen met één bericht."
+
+#: inc/listings.php:229 inc/listings.php:424
+msgid "Archives file name examples."
+msgstr "Archief bestandsnaam voorbeelden."
+
+#: inc/listings.php:91 inc/listings.php:311
+msgid "Template Hierarchy"
+msgstr "Template hiërarchie"
+
+#: inc/tools-sections/tools-debug.php:39
+msgid "Send debug info"
+msgstr "Stuur debug info"
+
+#: inc/tools-sections/tools-debug.php:30
+msgid "Please provide an email address to send debug information to: "
+msgstr "Geef een e-mailadres op om de debug informatie naartoe te sturen: "
+
+#: inc/tools-sections/tools-get-code.php:59
+msgid "%s Taxonomy"
+msgstr "%s taxonomie"
+
+#: inc/tools-sections/tools-get-code.php:34
+msgid "%s Post Type"
+msgstr "%s berichttype"
+
+#: inc/tools.php:367
+msgid "This will not export the associated posts or taxonomy terms, just the settings."
+msgstr "Dit exporteert niet de geassocieerde berichten of taxonomie termen, alleen de instellingen."
+
+#: inc/tools.php:82
+msgid "Debug Info"
+msgstr "Debug Info"
+
+#. translators: Placeholder will hold the plugin version.
+#: inc/about.php:94
+msgid "What's new in version %s"
+msgstr "Wat is er nieuw in versie %s"
+
+#: classes/class.cptui_debug_info.php:24
+msgid "If you have sought support for Custom Post Type UI on the forums, you may be requested to send the information below to the plugin developer. Simply insert the email they provided in the input field at the bottom and click the \"Send debug info\" button. Only the data below will be sent to them."
+msgstr "Als je om hulp met Custom Post Type UI hebt gevraagd op de forums, dan kan het zijn dat er gevraagd is onderstaande informatie naar de plugin ontwikkelaar te sturen. Voer het e-mailadres dat je is gegeven in het invoerveld hieronder in en klik op de \"Stuur debug info\" knop. Alleen onderstaande informatie zal naar hen verzonden worden."
+
+#. Author URI of the plugin
+#: custom-post-type-ui.php
+msgid "https://webdevstudios.com/"
+msgstr "https://webdevstudios.com/"
+
+#. Author of the plugin
+#: custom-post-type-ui.php
+msgid "WebDevStudios"
+msgstr "WebDevStudios"
+
+#. Description of the plugin
+#: custom-post-type-ui.php
+msgid "Admin UI panel for registering custom post types and taxonomies"
+msgstr "Beheerder UI paneel voor het registreren van extra berichttypen en taxonomieën"
+
+#. Plugin URI of the plugin
+#: custom-post-type-ui.php
+msgid "https://github.com/WebDevStudios/custom-post-type-ui/"
+msgstr "https://github.com/WebDevStudios/custom-post-type-ui/"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/utility.php:765
+msgid "Please choose a different taxonomy name. %s is already registered."
+msgstr "Kies een andere taxonomie naam. %s is al in gebruik."
+
+#: inc/taxonomies.php:1579
+msgid "Please provide a taxonomy name"
+msgstr "Geef een taxonomie naam"
+
+#: inc/taxonomies.php:1505
+msgid "Please provide a taxonomy to delete"
+msgstr "Geef een taxonomie op om te verwijderen"
+
+#: inc/taxonomies.php:1161
+msgid "(default: false) Whether to allow automatic creation of taxonomy columns on associated post-types."
+msgstr "(standaard: false) of taxonomie kolommen automatisch mogen worden aangemaakt op berichten van hetzelfde type."
+
+#: inc/taxonomies.php:1160
+msgid "Show Admin Column"
+msgstr "Toon in beheer kolom"
+
+#: inc/taxonomies.php:1135
+msgid "Rewrite Hierarchical"
+msgstr "Herschrijf hiërarchische URL's"
+
+#: inc/taxonomies.php:1110
+msgid "Rewrite With Front"
+msgstr "Herschrijf URL's met Front"
+
+#: inc/taxonomies.php:1087
+msgid "Custom taxonomy rewrite slug."
+msgstr "Aangepaste taxonomie herschrijven slug."
+
+#: inc/taxonomies.php:1085
+msgid "(default: taxonomy name)"
+msgstr "(standaard: taxonomie naam)"
+
+#: inc/taxonomies.php:1051
+msgid "Sets a custom query_var slug for this taxonomy."
+msgstr "Gebruik een aangepaste query_var slug voor deze taxonomie."
+
+#: inc/taxonomies.php:1050
+msgid "Custom Query Var String"
+msgstr "Aangepaste query var string"
+
+#: inc/taxonomies.php:710
+msgid "Not found"
+msgstr "Niets gevonden"
+
+#: inc/taxonomies.php:709
+msgid "(e.g. No Actors found)"
+msgstr "(bijv. Geen acteurs gevonden)"
+
+#: inc/taxonomies.php:694
+msgid "Choose From Most Used"
+msgstr "Kies uit de meest gebruikte"
+
+#: inc/taxonomies.php:693
+msgid "(e.g. Choose from the most used Actors)"
+msgstr "(bijv. Kies uit de meestgebruikte acteurs)"
+
+#: inc/taxonomies.php:678
+msgid "Add or Remove Items"
+msgstr "Toevoegen of verwijderen items"
+
+#: inc/taxonomies.php:677
+msgid "(e.g. Add or remove Actors)"
+msgstr "(bijv. toevoegen of verwijderen acteurs)"
+
+#: inc/taxonomies.php:662
+msgid "Separate Items with Commas"
+msgstr "Items gescheiden door komma's"
+
+#: inc/taxonomies.php:661
+msgid "(e.g. Separate Actors with commas)"
+msgstr "(bijv. Acteurs gescheiden door komma's)"
+
+#: inc/taxonomies.php:646
+msgid "Popular Items"
+msgstr "Populaire items"
+
+#: inc/taxonomies.php:645
+msgid "(e.g. Popular Actors)"
+msgstr "(bijv. populaire acteurs)"
+
+#: inc/taxonomies.php:630
+msgid "Search Items"
+msgstr "Zoek items"
+
+#: inc/taxonomies.php:629
+msgid "(e.g. Search Actors)"
+msgstr "(bijv. Zoek acteurs)"
+
+#: inc/taxonomies.php:614
+msgid "Parent Item Colon"
+msgstr "Hoofd item dubbele punt"
+
+#: inc/taxonomies.php:613
+msgid "(e.g. Parent Actor:)"
+msgstr "(bijv. Hoofd acteur:)"
+
+#: inc/taxonomies.php:598
+msgid "Parent Item"
+msgstr "Hoofd item"
+
+#: inc/taxonomies.php:597
+msgid "(e.g. Parent Actor)"
+msgstr "(bijv. Hoofd acteur)"
+
+#: inc/taxonomies.php:582
+msgid "New Item Name"
+msgstr "Nieuwe item naam"
+
+#: inc/taxonomies.php:581
+msgid "(e.g. New Actor Name)"
+msgstr "(bijv. Nieuwe acteur-naam)"
+
+#: inc/taxonomies.php:565
+msgid "(e.g. Add New Actor)"
+msgstr "(bijv. Voeg nieuwe acteur toe)"
+
+#: inc/taxonomies.php:550
+msgid "Update Item Name"
+msgstr "Item naam updaten"
+
+#: inc/taxonomies.php:549
+msgid "(e.g. Update Actor Name)"
+msgstr "(bijv. Updaten acteur naam)"
+
+#: inc/taxonomies.php:533
+msgid "(e.g. View Actor)"
+msgstr "(bijv. Bekijk Acteur) "
+
+#: inc/taxonomies.php:517
+msgid "(e.g. Edit Actor)"
+msgstr "(bijv. Bewerk Acteur)"
+
+#: inc/taxonomies.php:501
+msgid "(e.g. All Actors)"
+msgstr "(bijv. Alle Acteurs)"
+
+#: inc/taxonomies.php:551 inc/taxonomies.php:583 inc/taxonomies.php:599
+#: inc/taxonomies.php:615 inc/taxonomies.php:631 inc/taxonomies.php:647
+#: inc/taxonomies.php:663 inc/taxonomies.php:679
+msgid "Custom taxonomy label. Used in the admin menu for displaying taxonomies."
+msgstr "Aangepaste taxonomie label. Gebruikt in het beheer menu for taxonomie weergave."
+
+#: inc/taxonomies.php:434 inc/taxonomies.php:1367
+msgid "Add Taxonomy"
+msgstr "Voeg taxonomie toe"
+
+#: inc/taxonomies.php:422 inc/taxonomies.php:1355
+msgid "Delete Taxonomy"
+msgstr "Verwijder Taxonomie"
+
+#: inc/taxonomies.php:411 inc/taxonomies.php:1344
+msgid "Save Taxonomy"
+msgstr "Taxonomie opslaan"
+
+#: inc/taxonomies.php:340
+msgid "Attach to Post Type"
+msgstr "Koppel aan berichttype"
+
+#: inc/taxonomies.php:318
+msgid "(e.g. Actor)"
+msgstr "(bijv. Acteur)"
+
+#: inc/taxonomies.php:306 inc/taxonomies.php:486
+msgid "(e.g. Actors)"
+msgstr "(bijv. Acteurs)"
+
+#: inc/taxonomies.php:254
+msgid "Taxonomy Slug"
+msgstr "Taxonomie slug"
+
+#: inc/support.php:274
+msgid "Change text inside the post/page editor title field. Should be able to adapt as necessary."
+msgstr "Verander de tekst in de bericht/pagina editor titelveld."
+
+#: inc/support.php:273
+msgid "How do I filter the \"enter title here\" text in the post editor screen?"
+msgstr "Hoe filter ik de \"invoeren titel hier\" tekst in de bericht editor pagina?"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:262
+msgid "%1$s has an excellent %2$spost%3$s introducing users to the %4$sPosts 2 Posts%5$s plugin that should be a good start."
+msgstr "%1$s heeft een uitstekend %2$sbericht%3$s om gebruikers te introduceren met de %4$sPosts 2 Posts%5$s plugin. Dat is een goede start."
+
+#: inc/support.php:257
+msgid "Post relationships?"
+msgstr "Bericht relaties?"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:250
+msgid "Check out the %s function for documentation and usage examples."
+msgstr "Bekijk the %s functie voor documentatie en codevoorbeelden."
+
+#: inc/support.php:245
+msgid "How do I add a newly registered taxonomy to a post type that already exists?"
+msgstr "Hoe voeg ik een nieuw geregistreerde taxonomie toe aan een bestaand berichttype?"
+
+#: inc/support.php:233
+msgid "How do I add custom metaboxes to my post type?"
+msgstr "Hoe kan ik aangepaste metaboxen toevoegen aan mijn berichttype?"
+
+#: inc/support.php:230
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: inc/support.php:195
+msgid "I have added categories and tags to my custom post type, but they do not appear in the archives."
+msgstr "Ik heb categorieën en tags toegevoegd aan mijn custom post type, maar ze verschijnen niet in de archieven."
+
+#: inc/support.php:178
+msgid "How do I display my custom post type on my site?"
+msgstr "Hoe kan ik mijn custom post type weergeven op mijn site?"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:170
+msgid "Please visit the %1$sTemplate Hierarchy%2$s page on the WordPress codex for details about available templates."
+msgstr "Bezoek de %1$sTemplate Hierarchy%2$s pagina van de WordPress codex voor meer informatie over de beschikbare template bestanden."
+
+#: inc/support.php:165
+msgid "What template files should I edit to alter my post type display?"
+msgstr "Welke template bestanden moet ik bewerken om de weergave van mijn berichttype te wijzigen?"
+
+#: inc/support.php:162
+msgid "Front-end Display"
+msgstr "Front-end Weergave"
+
+#: inc/support.php:155
+msgid "Make sure your theme has post \"post-thumbnails\" theme support enabled."
+msgstr "Zorg ervoor dat je thema \"post-thumbnails\" thema ondersteuning heeft."
+
+#: inc/support.php:154
+msgid "I have added post thumbnail and/or post format support to my post type, but those do not appear when adding a post type post."
+msgstr "Ik heb een uitgelichte afbeelding en/of berichtformaat ondersteuning toegevoegd aan mijn berichttype, maar deze worden niet weergegeven wanneer ik een nieuw bericht probeer te maken."
+
+#: inc/support.php:151
+msgid "Renaming the slug for a post type or taxonomy creates a new entry in our saved option which gets registered as its own post type or taxonomy. Since the settings will be mirrored from the previous slug, you will just need to delete the previous version's entry."
+msgstr "Het hernoemen van de slug voor een berichttype of taxonomie creëert een nieuw item in onze opgeslagen optie die wordt geregistreerd als een eigen berichttype of taxonomie. Gezien alle instellingen worden gekopieerd van de vorige slug zul je de vorige versie moeten verwijderen."
+
+#: inc/support.php:150
+msgid "I changed my custom post type or taxonomy slug and now I have duplicates shown. How do I remove the duplicate?"
+msgstr "Ik heb mijn custom post type of taxonomie slug verandert en nu worden er dubbele berichten getoond. Hoe verwijder ik het dubbele bericht?"
+
+#: inc/support.php:145
+msgid "You can either change the custom post type name back to the original name or try the Post Type Switcher plugin"
+msgstr "Je kunt de naam custom post type terug veranderen naar het origineel of gebruik de Post Type Switcher plugin"
+
+#: inc/support.php:144
+msgid "I changed my custom post type name and now I can not get to my posts. How do I get them back?"
+msgstr "Ik heb de naam van mijn custom post type veranderd en nu kan ik niet meer bij mijn berichten. Hoe krijg ik ze terug?"
+
+#: inc/support.php:136
+msgid "General"
+msgstr "Algemeen"
+
+#: inc/support.php:77
+msgid "Support Forums"
+msgstr "Support Forums"
+
+#: inc/support.php:66
+msgid "Custom Post Type UI Support"
+msgstr "Custom Post Type UI Hulp"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/utility.php:750
+msgid "Please choose a different post type name. %s is already registered."
+msgstr "Kies een andere berichttype naam. %s is al geregistreerd."
+
+#: inc/utility.php:818
+msgid "Please do not use quotes in post type/taxonomy names or rewrite slugs"
+msgstr "Gebruik geen aanhalingstekens in berichttype/taxonomie namen of herschrijf slugs"
+
+#: inc/post-types.php:2022
+msgid "Please provide a post type name"
+msgstr "Geef de naam van een berichttype"
+
+#: inc/post-types.php:1949
+msgid "Please provide a post type to delete"
+msgstr "Geef een berichttype op om te verwijderen"
+
+#: inc/post-types.php:1758
+msgid "Adds %s support"
+msgstr "Voegt %s ondersteuning toe"
+
+#: inc/post-types.php:1704
+msgid "Provide custom support slugs here."
+msgstr "Aangepaste ondersteuning-slugs hier invoeren."
+
+#: inc/post-types.php:1696 inc/post-types.php:1697
+msgid "Custom \"Supports\""
+msgstr "Aangepaste \"Ondersteuning\""
+
+#: inc/post-types.php:1688
+msgid "None"
+msgstr "Geen"
+
+#: inc/post-types.php:1506
+msgid "Use the \"None\" option to explicitly set \"supports\" to false."
+msgstr "Gebruik de optie hieronder om nadrukkelijk geen \"ondersteuning\" te gebruiken."
+
+#: inc/post-types.php:1675
+msgid "Post Formats"
+msgstr "Berichtformaat"
+
+#: inc/post-types.php:1662
+msgid "Page Attributes"
+msgstr "Pagina-attributen"
+
+#: inc/post-types.php:1649
+msgid "Author"
+msgstr "Auteur"
+
+#: inc/post-types.php:626 inc/post-types.php:1571
+msgid "Featured Image"
+msgstr "Uitgelichte afbeelding"
+
+#: inc/post-types.php:1636
+msgid "Revisions"
+msgstr "Revisies"
+
+#: inc/post-types.php:1623
+msgid "Comments"
+msgstr "Reacties"
+
+#: inc/post-types.php:1610
+msgid "Custom Fields"
+msgstr "Extra velden"
+
+#: inc/post-types.php:1597
+msgid "Trackbacks"
+msgstr "Trackbacks"
+
+#: inc/post-types.php:1584
+msgid "Excerpt"
+msgstr "Samenvatting"
+
+#: inc/post-types.php:1554
+msgid "Editor"
+msgstr "Editor"
+
+#: inc/post-types.php:1537
+msgid "Title"
+msgstr "Titel"
+
+#: inc/post-types.php:1460
+msgid "(Full URL for icon or Dashicon class)"
+msgstr "(Volledige URL voor het pictogram, of Dashicon klasse)"
+
+#: inc/post-types.php:1453
+msgid "Menu Icon"
+msgstr "Menu pictogram"
+
+#: inc/post-types.php:1406
+msgid "\"Show UI\" must be \"true\". If an existing top level page such as \"tools.php\" is indicated for second input, post type will be sub menu of that."
+msgstr "\"Toon in gebruikersinterface\" moet \"Ja\" als waarde hebben. Als een bestaande hoofdpagina zoals \"tools.php\" wordt ingevoerd zal dit post-type in het submenu van die pagina komen te staan."
+
+#: inc/post-types.php:1405
+msgid "Show in Menu"
+msgstr "Toon in menu"
+
+#: inc/post-types.php:1398
+msgid "The position in the menu order the post type should appear. show_in_menu must be true."
+msgstr "The positie in het menu waar dit berichttype wordt weergegeven. Toon in menu moet op Ja staan."
+
+#: inc/post-types.php:1377
+msgid "Menu Position"
+msgstr "Menupositie"
+
+#: inc/post-types.php:1359 inc/taxonomies.php:1038
+msgid "Query Var"
+msgstr "Query Var"
+
+#: inc/post-types.php:1333
+msgid "With Front"
+msgstr "Permalink basis"
+
+#: inc/post-types.php:1309
+msgid "Custom post type slug to use instead of the default."
+msgstr "Custom post type slug in plaats van de standaard slug."
+
+#: inc/post-types.php:1308
+msgid "(default: post type slug)"
+msgstr "(standaard: berichttype slug)"
+
+#: inc/post-types.php:1307 inc/taxonomies.php:1086
+msgid "Custom Rewrite Slug"
+msgstr "Aangepaste slug"
+
+#: inc/post-types.php:1296 inc/taxonomies.php:1074
+msgid "Rewrite"
+msgstr "Herschrijf"
+
+#: inc/post-types.php:1218 inc/post-types.php:1242 inc/taxonomies.php:938
+msgid "Hierarchical"
+msgstr "Hiërarchie"
+
+#: inc/post-types.php:1212
+msgid "Capability Type"
+msgstr "Bevoegdheden-type"
+
+#: inc/post-types.php:1201
+msgid "Exclude From Search"
+msgstr "Uitsluiten in de zoekresultaten"
+
+#: inc/post-types.php:1174
+msgid "Slug to be used for archive URL."
+msgstr "Te gebruiken slug voor de archief URL."
+
+#: inc/post-types.php:1138
+msgid "If left blank, the archive slug will default to the post type slug."
+msgstr "Indien leeg gelaten, zal de archief slug standaard de slug van berichttype gebruiken."
+
+#: inc/post-types.php:1137
+msgid "Has Archive"
+msgstr "Archief"
+
+#: inc/post-types.php:1022 inc/taxonomies.php:963
+msgid "Show UI"
+msgstr "Toon UI"
+
+#: inc/post-types.php:970 inc/taxonomies.php:888
+msgid "Public"
+msgstr "Openbaar"
+
+#: external/wpgraphql.php:213 inc/post-types.php:958 inc/post-types.php:984
+#: inc/post-types.php:1010 inc/post-types.php:1036 inc/post-types.php:1063
+#: inc/post-types.php:1088 inc/post-types.php:1150 inc/post-types.php:1190
+#: inc/post-types.php:1231 inc/post-types.php:1259 inc/post-types.php:1284
+#: inc/post-types.php:1321 inc/post-types.php:1347 inc/post-types.php:1417
+#: inc/taxonomies.php:877 inc/taxonomies.php:902 inc/taxonomies.php:928
+#: inc/taxonomies.php:952 inc/taxonomies.php:977 inc/taxonomies.php:1002
+#: inc/taxonomies.php:1027 inc/taxonomies.php:1063 inc/taxonomies.php:1099
+#: inc/taxonomies.php:1125 inc/taxonomies.php:1150 inc/taxonomies.php:1174
+#: inc/taxonomies.php:1230 inc/taxonomies.php:1255 inc/taxonomies.php:1280
+msgid "True"
+msgstr "Ja"
+
+#: external/wpgraphql.php:209 inc/post-types.php:954 inc/post-types.php:980
+#: inc/post-types.php:1006 inc/post-types.php:1032 inc/post-types.php:1058
+#: inc/post-types.php:1084 inc/post-types.php:1145 inc/post-types.php:1185
+#: inc/post-types.php:1226 inc/post-types.php:1254 inc/post-types.php:1280
+#: inc/post-types.php:1317 inc/post-types.php:1343 inc/post-types.php:1413
+#: inc/taxonomies.php:873 inc/taxonomies.php:898 inc/taxonomies.php:923
+#: inc/taxonomies.php:948 inc/taxonomies.php:973 inc/taxonomies.php:998
+#: inc/taxonomies.php:1023 inc/taxonomies.php:1059 inc/taxonomies.php:1095
+#: inc/taxonomies.php:1120 inc/taxonomies.php:1145 inc/taxonomies.php:1170
+#: inc/taxonomies.php:1225 inc/taxonomies.php:1250 inc/taxonomies.php:1275
+msgid "False"
+msgstr "Nee"
+
+#: inc/post-types.php:615
+msgid "(e.g. Parent Movie:)"
+msgstr "(bijv. Hoofdfilm:)"
+
+#: inc/post-types.php:610
+msgid "Parent"
+msgstr "Hoofd"
+
+#: inc/post-types.php:598
+msgid "(e.g. No Movies found in Trash)"
+msgstr "(bijv. Geen films gevonden in de prullenbak)"
+
+#: inc/post-types.php:593
+msgid "Not Found in Trash"
+msgstr "Niet gevonden in de prullenbak"
+
+#: inc/post-types.php:582
+msgid "(e.g. No Movies found)"
+msgstr "(bijv. Geen films gevonden)"
+
+#: inc/post-types.php:577
+msgid "Not Found"
+msgstr "Niets gevonden"
+
+#: inc/post-types.php:566
+msgid "(e.g. Search Movies)"
+msgstr "(bijv. Zoek films)"
+
+#: inc/post-types.php:561
+msgid "Search Item"
+msgstr "Zoek item"
+
+#: inc/post-types.php:534
+msgid "(e.g. View Movie)"
+msgstr "(bijv. Film bekijken)"
+
+#: inc/post-types.php:529 inc/taxonomies.php:534
+msgid "View Item"
+msgstr "Bekijk item"
+
+#: inc/post-types.php:518
+msgid "(e.g. New Movie)"
+msgstr "(bijv. Nieuwe film)"
+
+#: inc/post-types.php:513
+msgid "New Item"
+msgstr "Nieuw item"
+
+#: inc/post-types.php:502
+msgid "(e.g. Edit Movie)"
+msgstr "(bijv. Bewerk film)"
+
+#: inc/post-types.php:497 inc/taxonomies.php:518
+msgid "Edit Item"
+msgstr "Bewerk item"
+
+#: inc/post-types.php:486
+msgid "(e.g. Add New Movie)"
+msgstr "(bijv. Voeg nieuwe film toe)"
+
+#: inc/post-types.php:481 inc/taxonomies.php:566
+msgid "Add New Item"
+msgstr "Voeg nieuw item toe"
+
+#: inc/post-types.php:470
+msgid "(e.g. Add New)"
+msgstr "(bijv. Nieuw toevoegen)"
+
+#: inc/post-types.php:465
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: inc/post-types.php:454
+msgid "(e.g. All Movies)"
+msgstr "(bijv. Alle films)"
+
+#: inc/post-types.php:449 inc/taxonomies.php:502
+msgid "All Items"
+msgstr "Alle items"
+
+#: inc/post-types.php:438
+msgid "(e.g. My Movies)"
+msgstr "(bijv. Mijn films)"
+
+#: inc/post-types.php:434
+msgid "Custom admin menu name for your custom post type."
+msgstr "Aangepaste menu naam voor je eigen bericht type."
+
+#: inc/post-types.php:433 inc/taxonomies.php:487
+msgid "Menu Name"
+msgstr "Menunaam"
+
+#: inc/post-types.php:381 inc/post-types.php:1817
+msgid "Add Post Type"
+msgstr "Berichttype toevoegen"
+
+#: inc/post-types.php:369 inc/post-types.php:1805
+msgid "Delete Post Type"
+msgstr "Verwijder berichttype"
+
+#: inc/post-types.php:358 inc/post-types.php:1794
+msgid "Save Post Type"
+msgstr "Berichttype opslaan"
+
+#: inc/post-types.php:287
+msgid "Migrate posts to newly renamed post type?"
+msgstr "Migreer berichten naar hernoemd berichttype?"
+
+#: inc/taxonomies.php:476
+msgid "Description"
+msgstr "Beschrijving"
+
+#: inc/post-types.php:316 inc/post-types.php:807
+msgid "(e.g. Movie)"
+msgstr "(bijv. Film)"
+
+#: inc/post-types.php:315 inc/taxonomies.php:319
+msgid "Singular Label"
+msgstr "Enkelvoud label"
+
+#: inc/post-types.php:514
+msgid "Post type label. Used in the admin menu for displaying post types."
+msgstr "Berichttype-label. Gebruikt in het adminmenu voor het weergeven van berichttypen."
+
+#: inc/post-types.php:304
+msgid "(e.g. Movies)"
+msgstr "(bijv. Films)"
+
+#: inc/post-types.php:303 inc/taxonomies.php:307
+msgid "Plural Label"
+msgstr "Meervoud label"
+
+#: inc/post-types.php:249
+msgid "Post Type Slug"
+msgstr "Berichttype Slug"
+
+#: inc/post-types.php:214 inc/taxonomies.php:219
+msgid "Select"
+msgstr "Selecteer"
+
+#: inc/post-types.php:200 inc/taxonomies.php:205
+msgid "Select: "
+msgstr "Selecteer: "
+
+#: inc/listings.php:307
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: inc/listings.php:223 inc/listings.php:418
+msgid "No custom labels to display"
+msgstr "Er zijn geen aangepaste labels om weer te geven"
+
+#: inc/listings.php:169
+msgid "View frontend archive"
+msgstr "Bekijk archief"
+
+#: inc/listings.php:90 inc/listings.php:310
+msgid "Labels"
+msgstr "Labels"
+
+#: inc/listings.php:88 inc/post-types.php:1502
+msgid "Supports"
+msgstr "Ondersteunt"
+
+#: inc/listings.php:86
+msgid "Post Type"
+msgstr "Berichttype"
+
+#: inc/tools-sections/tools-post-types.php:49
+msgid "No post types to display at this time"
+msgstr "Op dit moment geen berichttypen om weer te geven"
+
+#: inc/tools-sections/tools-taxonomies.php:47
+msgid "No taxonomies to display at this time"
+msgstr "Op dit moment geen taxonomieën om weer te geven"
+
+#: inc/tools-sections/tools-get-code.php:23
+#: inc/tools-sections/tools-get-code.php:36
+#: inc/tools-sections/tools-get-code.php:48
+#: inc/tools-sections/tools-get-code.php:63
+msgid "Copy/paste the code below into your functions.php file."
+msgstr "Kopieer/plak de onderstaande code in je functions.php bestand."
+
+#: inc/tools-sections/tools-get-code.php:15
+msgid "Get Post Type and Taxonomy Code"
+msgstr "Verkrijg de code voor berichttype en taxonomie"
+
+#: inc/tools.php:456
+msgid "Use the content above to import current taxonomies into a different WordPress site. You can also use this to simply back up your taxonomy settings."
+msgstr "Gebruik de bovenstaande inhoud om de huidige taxonomieën te importeren in een andere WordPress site. Je kunt dit ook gebruiken om eenvoudig een back-up te maken van de taxonomie instellingen."
+
+#: inc/tools.php:450
+msgid "No taxonomies registered yet."
+msgstr "Nog geen taxonomieën geregistreerd."
+
+#: inc/tools.php:429
+msgid "To import taxonomies from a different WordPress site, paste the exported content from that site and click the \"Import\" button."
+msgstr "Om taxonomieën vanuit een andere WordPress site te importeren, plak de geëxporteerde content van die site en klik op de knop \"Importeren\"."
+
+#: inc/tools.php:419
+msgid "Import Taxonomies"
+msgstr "Taxonomieën importeren"
+
+#: inc/tools.php:412
+msgid "Use the content above to import current post types into a different WordPress site. You can also use this to simply back up your post type settings."
+msgstr "Gebruik de bovenstaande inhoud om de huidige berichttypen te importeren in een andere WordPress site. Je kunt dit ook gebruiken om eenvoudig een back-up te maken van de berichttype instellingen."
+
+#: inc/tools.php:409 inc/tools.php:453
+msgid "To copy the system info, click below then press Ctrl + C (PC) or Cmd + C (Mac)."
+msgstr "Om de systeem informatie te kopiëren, klik hieronder en druk vervolgens op Ctrl + C (PC) of Cmd + C (Mac)."
+
+#: inc/tools.php:406
+msgid "No post types registered yet."
+msgstr "Nog geen berichttypen geregistreerd."
+
+#: inc/tools.php:389 inc/tools.php:433
+msgid "Import"
+msgstr "Importeren"
+
+#: inc/tools.php:385
+msgid "To import post types from a different WordPress site, paste the exported content from that site and click the \"Import\" button."
+msgstr "Om berichttypen van een andere WordPress-site te importeren, plak de geëxporteerde content van de site en klik op de knop \"Importeren\"."
+
+#: inc/tools.php:381 inc/tools.php:425
+msgid "Importing will overwrite previous registered settings."
+msgstr "Het importeren zal eerder geregistreerde instellingen overschrijven."
+
+#: inc/tools.php:381 inc/tools.php:425
+msgid "Note:"
+msgstr "Let op:"
+
+#: inc/tools.php:378 inc/tools.php:422
+msgid "Paste content here."
+msgstr "Plak de inhoud hier."
+
+#: inc/tools.php:375
+msgid "Import Post Types"
+msgstr "Importeer berichttypen"
+
+#: inc/tools.php:366
+msgid "NOTE"
+msgstr "AANTEKENING"
+
+#: inc/tools.php:360
+msgid "If you are wanting to migrate registered post types or taxonomies from this site to another, that will also use Custom Post Type UI, use the import and export functionality. If you are moving away from Custom Post Type UI, use the information in the \"Get Code\" tab."
+msgstr "Als je geregistreerde berichttypen of taxonomieën wilt migreren van deze site naar een andere, die ook Custom Post Type UI gebruikt, gebruik dan de import- en exportfunctionaliteit. Als je niet langer gebruikmaakt van Custom Post Type UI, gebruik dan de informatie in de tab \"Code verkrijgen\"."
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1064 custom-post-type-ui.php:1112
+#: inc/taxonomies.php:698
+msgid "Choose from the most used %s"
+msgstr "Kies uit de meest gebruikte %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1063 custom-post-type-ui.php:1111
+#: inc/taxonomies.php:682
+msgid "Add or remove %s"
+msgstr "Toevoegen of verwijderen van %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1062 custom-post-type-ui.php:1110
+#: inc/taxonomies.php:666
+msgid "Separate %s with commas"
+msgstr "Meerdere %s scheiden met komma's"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1061 custom-post-type-ui.php:1104
+#: inc/taxonomies.php:586
+msgid "New %s name"
+msgstr "Nieuwe %s naam"
+
+#: custom-post-type-ui.php:1059 custom-post-type-ui.php:1102
+msgid "Update %s"
+msgstr "Update %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1057 custom-post-type-ui.php:1100
+#: inc/post-types.php:618 inc/taxonomies.php:618
+msgid "Parent %s:"
+msgstr "Hoofd %s:"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1056 custom-post-type-ui.php:1099
+#: inc/taxonomies.php:602
+msgid "Parent %s"
+msgstr "Hoofd %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1054 custom-post-type-ui.php:1108
+#: inc/taxonomies.php:650
+msgid "Popular %s"
+msgstr "Populaire %s"
+
+#: custom-post-type-ui.php:1050 custom-post-type-ui.php:1094
+msgid "No %s found in trash."
+msgstr "Geen %s gevonden in de prullenbak."
+
+#: custom-post-type-ui.php:1049 custom-post-type-ui.php:1093
+msgid "No %s found."
+msgstr "Geen %s gevonden."
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1048 custom-post-type-ui.php:1053
+#: custom-post-type-ui.php:1092 custom-post-type-ui.php:1107
+#: inc/post-types.php:569 inc/taxonomies.php:634
+msgid "Search %s"
+msgstr "Zoek %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1047 custom-post-type-ui.php:1055
+#: custom-post-type-ui.php:1091 custom-post-type-ui.php:1109
+#: inc/post-types.php:457 inc/taxonomies.php:506
+msgid "All %s"
+msgstr "Alle %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1045 custom-post-type-ui.php:1046
+#: custom-post-type-ui.php:1087 custom-post-type-ui.php:1090
+#: inc/post-types.php:537 inc/post-types.php:553 inc/taxonomies.php:538
+msgid "View %s"
+msgstr "Bekijk %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1044 custom-post-type-ui.php:1086
+#: inc/post-types.php:521
+msgid "New %s"
+msgstr "Nieuw %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1043 custom-post-type-ui.php:1058
+#: custom-post-type-ui.php:1085 custom-post-type-ui.php:1101
+#: inc/post-types.php:505 inc/taxonomies.php:522
+msgid "Edit %s"
+msgstr "Bewerk %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1042 custom-post-type-ui.php:1060
+#: custom-post-type-ui.php:1084 custom-post-type-ui.php:1103
+#: inc/post-types.php:489 inc/taxonomies.php:570
+msgid "Add new %s"
+msgstr "Nieuwe %s toevoegen"
+
+#: custom-post-type-ui.php:958
+msgid "%s has failed to be imported"
+msgstr "Het importeren van %s is mislukt"
+
+#: custom-post-type-ui.php:956
+msgid "%s has been successfully imported"
+msgstr "%s is met succes geïmporteerd"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: custom-post-type-ui.php:952 inc/utility.php:698
+msgid "%s has failed to be deleted"
+msgstr "Het verwijderen van %s is mislukt"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: custom-post-type-ui.php:950 inc/utility.php:683
+msgid "%s has been successfully deleted"
+msgstr "%s is succesvol verwijderd"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: custom-post-type-ui.php:946 inc/utility.php:667
+msgid "%s has failed to be updated"
+msgstr "%s kon niet worden geüpdatet"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: custom-post-type-ui.php:944 inc/utility.php:652
+msgid "%s has been successfully updated"
+msgstr "%s is succesvol geüpdatet"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: custom-post-type-ui.php:940 inc/utility.php:636
+msgid "%s has failed to be added"
+msgstr "%s kon niet worden toegevoegd"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: custom-post-type-ui.php:938 inc/utility.php:621
+msgid "%s has been successfully added"
+msgstr "%s is succesvol toegevoegd"
+
+#: inc/utility.php:40
+msgid "Help"
+msgstr "Help"
+
+#: inc/listings.php:87 inc/listings.php:308 inc/post-types.php:937
+#: inc/taxonomies.php:855
+msgid "Settings"
+msgstr "Instellingen"
+
+#: inc/tools.php:75
+msgid "Get Code"
+msgstr "Verkrijg code"
+
+#: inc/listings.php:89 inc/listings.php:291 inc/post-types.php:1711
+#: inc/tools.php:68
+msgid "Taxonomies"
+msgstr "Taxonomieën"
+
+#: inc/listings.php:70 inc/listings.php:309 inc/tools.php:61
+msgid "Post Types"
+msgstr "Berichttypen"
+
+#: inc/taxonomies.php:111
+msgid "Edit Taxonomies"
+msgstr "Bewerk taxonomieën"
+
+#: inc/listings.php:67 inc/taxonomies.php:93
+msgid "Add New Taxonomy"
+msgstr "Nieuwe taxonomie toevoegen"
+
+#: inc/post-types.php:108
+msgid "Edit Post Types"
+msgstr "Bewerk berichttypen"
+
+#: inc/listings.php:66 inc/post-types.php:90
+msgid "Add New Post Type"
+msgstr "Nieuwe berichttype toevoegen"
+
+#: inc/utility.php:136
+msgid "Follow on Twitter:"
+msgstr "Volgen op Twitter:"
+
+#. Plugin Name of the plugin
+#: custom-post-type-ui.php inc/about.php:64 inc/utility.php:113
+#: inc/utility.php:131
+msgid "Custom Post Type UI"
+msgstr "Custom Post Type UI"
+
+#: custom-post-type-ui.php:165
+msgid "About CPT UI"
+msgstr "Over CPT UI"
+
+#: custom-post-type-ui.php:151
+msgid "Help/Support"
+msgstr "Help/Support"
+
+#: custom-post-type-ui.php:149
+msgid "Registered Types/Taxes"
+msgstr "Geregistreerde typen/belastingen"
+
+#: custom-post-type-ui.php:149
+msgid "Registered Types and Taxes"
+msgstr "Geregistreerde typen en belastingen"
+
+#: custom-post-type-ui.php:148 inc/listings.php:522
+msgid "Add/Edit Taxonomies"
+msgstr "Toevoegen/bewerken taxonomieën"
+
+#: custom-post-type-ui.php:147 inc/listings.php:500
+msgid "Add/Edit Post Types"
+msgstr "Toevoegen/bewerken berichttypes"
+
+#: custom-post-type-ui.php:146
+msgid "CPT UI"
+msgstr "CPT UI"
+
+#: custom-post-type-ui.php:146
+msgid "Custom Post Types"
+msgstr "Aangepaste berichttypen"
